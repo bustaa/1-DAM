@@ -28,4 +28,4 @@ media = promedio(vec)
 
 console.log(`El promedio de los numeros introducidos es: ${media}`)
 
-
+let cambio = true;
