@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<socios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sociosClub.xsd">
+    <socio>
+        <nombre>Pepe</nombre>
+        <antiguedad>4</antiguedad>
+        <poblacion>Catarroja</poblacion>
+    </socio>
+    <socio>
+        <nombre>Ana</nombre>
+        <antiguedad>5</antiguedad>
+        <poblacion>Albal</poblacion>
+    </socio>
+    <socio>
+        <nombre>Juan</nombre>
+        <antiguedad>3</antiguedad>
+        <poblacion>Catarroja</poblacion>
+    </socio>
+</socios>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="alumnos1.xsl"?>
+<alumnos>
+    <alumno>
+        <nombre>Pepe</nombre>
+        <poblacion>Albal</poblacion>
+        <telefono>123</telefono>
+        <fecha_nac>14/3/2008</fecha_nac>
+    </alumno>
+    <alumno>
+        <nombre>Juan</nombre>
+        <poblacion>Catarroja</poblacion>
+        <telefono>456</telefono>
+        <fecha_nac>30/1/2008</fecha_nac>
+    </alumno>
+    <alumno>
+        <nombre>Ana</nombre>
+        <poblacion>Catarroja</poblacion>
+        <telefono>789</telefono>
+        <fecha_nac>20/7/2008</fecha_nac>
+    </alumno>
+</alumnos>

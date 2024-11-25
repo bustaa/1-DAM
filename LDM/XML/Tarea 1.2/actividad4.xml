@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <empresa>
+        <CIF>B84818442</CIF>
+        <nombre lang="es">LEROY MERLIN ESPAÑA SL</nombre>
+        <direccion>AVENIDA DE LA VEGA (P ARROYO VEGA)</direccion>
+        <tfno>917496000</tfno>
+    </empresa>
+    <datos_factura>
+        <num_factura>123843</num_factura>
+        <fecha>17-09-2024</fecha>
+    </datos_factura>
+    <datos_cliente>
+        <CIF>792988E</CIF>
+        <nombre>Ramón</nombre>
+        <direccion>AVENIDA Nº2</direccion>
+        <tfno>638493223</tfno>
+    </datos_cliente>
+    <conceptos_factura>
+        <producto>
+            <codigo>23E1H24</codigo>
+            <nombre>Ladrillos de arcilla</nombre>
+            <precio_unitario moneda="euro">2.59</precio_unitario>
+            <IVA_incluido tipoIVA="21" moneda="euro">3.13</IVA_incluido>
+            <num_unidades>3000</num_unidades>
+            <importe_total moneda="euro">9390</importe_total>  
+        </producto>
+        <producto>
+            <codigo>323F23D</codigo>
+            <nombre>Sacos de cemento</nombre>
+            <precio_unitario moneda="euro">5.12</precio_unitario>
+            <IVA_incluido tipoIVA="21" moneda="euro">6.20</IVA_incluido>
+            <num_unidades>120</num_unidades>
+            <importe_total moneda="euro">744</importe_total>
+        </producto>
+    </conceptos_factura>
+</factura>

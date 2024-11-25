@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    
+    <libro lang="en">
+        <titulo>Harry Poter</titulo>
+        <editorial>Bloomsbury</editorial>
+        <fecha_publicacion>26-06-1997</fecha_publicacion>
+        <ISBN>9788478884452</ISBN>
+        <autores>
+            <autor>
+                <nombre>J.K.Rowling</nombre>
+                <pais_origen>Reino Unido</pais_origen>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro lang="es">
+        <titulo>El Dios En Llamas</titulo>
+        <editorial>Hidra</editorial>
+        <fecha_publicacion>02-09-2024</fecha_publicacion>
+        <ISBN>9788419266927</ISBN>
+        <autores>
+            <autor>
+                <nombre>R.F.Kuang</nombre>
+                <pais_origen>EUA</pais_origen>
+            </autor>
+            <autor>
+                <nombre>Toshikazu Kawaguchi</nombre>
+                <pais_origen>Japón</pais_origen>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro lang="en">
+        <titulo>Before The Coffee Gets Cold</titulo>
+        <editorial>Pan Macmillan</editorial>
+        <fecha_publicacion>11-07-2022</fecha_publicacion>
+        <ISBN>9781529029581</ISBN>
+        <autores>
+            <autor>
+                <nombre>Toshikazu Kawaguchi</nombre>
+                <pais_origen>Japón</pais_origen>
+            </autor>
+            <autor>
+                <nombre>Freida McFadden</nombre>
+                <pais_origen>EUA</pais_origen>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro lang="es">
+        <titulo>La Asistenta</titulo>
+        <editorial>Suma</editorial>
+        <fecha_publicacion>05-10-2024</fecha_publicacion>
+        <ISBN>9788491294283</ISBN>
+        <autores>
+            <autor>
+                <nombre>Freida McFadden</nombre>
+                <pais_origen>EUA</pais_origen>
+            </autor>
+            <autor>
+                <nombre>R.F.Kuang</nombre>
+                <pais_origen>EUA</pais_origen>
+            </autor>
+        </autores>
+    </libro>
+
+    <libro lang="es">
+        <titulo>Cuando La Tormenta Pase</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <fecha_publicacion>19-06-2024</fecha_publicacion>
+        <ISBN>9788408290049</ISBN>
+        <autores>
+            <autor>
+                <nombre>Manel Loureiro</nombre>
+                <pais_origen>España</pais_origen>
+            </autor>
+        </autores>
+    </libro>
+
+</libros>

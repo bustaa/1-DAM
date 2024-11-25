@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taller>
+    <vehiculos categoria="vehiculos-reparados">
+        
+        <vehiculo>
+            <matricula>1234ABC</matricula>
+            <marca>AUDI</marca>
+            <modelo>A1</modelo>
+            <fecha_reparacion>01-09-2024</fecha_reparacion>
+            <nombre_mecanico>Manuel</nombre_mecanico>
+        </vehiculo>
+
+        <vehiculo>
+            <matricula>1111BFD</matricula>
+            <marca>BMW</marca>
+            <modelo>TT</modelo>
+            <fecha_reparacion>02-09-2024</fecha_reparacion>
+            <nombre_mecanico>Jose</nombre_mecanico>
+        </vehiculo>
+        
+        <vehiculo>
+            <matricula>2234BWO</matricula>
+            <marca>Ford</marca>
+            <modelo>D-MAX</modelo>
+            <fecha_reparacion>03-09-2024</fecha_reparacion>
+            <nombre_mecanico>Paco</nombre_mecanico>
+        </vehiculo>
+        
+        <vehiculo>
+            <matricula>9574YOI</matricula>
+            <marca>Seat</marca>
+            <modelo>Ibiza</modelo>
+            <fecha_reparacion>04-09-2024</fecha_reparacion>
+            <nombre_mecanico>Vicente</nombre_mecanico>
+        </vehiculo>
+        
+        <vehiculo>
+            <matricula>8828YVS</matricula>
+            <marca>MercedesBenz</marca>
+            <modelo>G7</modelo>
+            <fecha_reparacion>05-09-2024</fecha_reparacion>
+            <nombre_mecanico>David</nombre_mecanico>
+        </vehiculo>
+
+    </vehiculos>
+</taller>

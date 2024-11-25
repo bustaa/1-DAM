@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+
+<nota xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="actividad1.xsd">
+    <para>Pepe</para>
+    <de>Ana</de>
+    <titulo>Proxima reunión</titulo>
+    <contenido>A las 11:00 en la sala D.1.2. Será media hora</contenido>
+</nota>

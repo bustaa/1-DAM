@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurante>
+    <carta>
+
+        <desayuno>
+
+            <plato>
+                <nombre lang="es">Smoothie bowl de mango y plátano con frutos rojos y chía</nombre>
+                <precio moneda="euro">5.99</precio>
+                <calorias>346</calorias>
+                <lista_ingredientes>
+                    <ingrediente>Mango</ingrediente>
+                    <ingrediente>Plátano</ingrediente>
+                </lista_ingredientes>
+            </plato>
+
+            <plato>
+                <nombre lang="es">Tostas de tomate y mozzarella con mortadela</nombre>
+                <precio moneda="euro">7.99</precio>
+                <calorias>519</calorias>
+                <lista_ingredientes>
+                    <ingrediente>Pan de hogaza</ingrediente>
+                    <ingrediente>Tomate</ingrediente>
+                    <ingrediente>Mozzarella</ingrediente>
+                </lista_ingredientes>
+            </plato>
+
+        </desayuno>
+
+        <comida>
+
+            <plato>
+                <nombre lang="es">Tortilla de patatas</nombre>
+                <precio moneda="euro">12.99</precio>
+                <calorias>789</calorias>
+                <lista_ingredientes>
+                    <ingrediente>Patatas</ingrediente>
+                    <ingrediente>Huevo</ingrediente>
+                </lista_ingredientes>
+            </plato>
+
+            <plato>
+                <nombre lang="es">Pechuga de pollo con arroz</nombre>
+                <precio moneda="euro"></precio>
+                <calorias>645</calorias>
+                <lista_ingredientes>
+                    <ingrediente>Pollo</ingrediente>
+                    <ingrediente>Arroz</ingrediente>
+                </lista_ingredientes>
+            </plato>
+
+        </comida>
+
+        <cena>
+
+            <plato>
+                <nombre lang="es">Pizza Margarita</nombre>
+                <precio moneda="euro"></precio>
+                <calorias>832</calorias>
+                <lista_ingredientes>
+                    <ingrediente>Masa de pizza</ingrediente>
+                    <ingrediente>Tomate</ingrediente>
+                    <ingrediente>Queso</ingrediente>
+                </lista_ingredientes>
+            </plato>
+
+            <plato>
+                <nombre lang="en">Cheeseburger</nombre>
+                <precio moneda="euro">8.99</precio>
+                <calorias>1123</calorias>
+                <lista_ingredientes>
+                    <ingrediente>Pan Brioche</ingrediente>
+                    <ingrediente>Carne vacuno</ingrediente>
+                    <ingrediente>Queso</ingrediente>
+                </lista_ingredientes>
+            </plato>
+
+        </cena>
+
+    </carta>
+</restaurante>

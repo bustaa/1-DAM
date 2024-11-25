@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibliotecaLibros.xsd">
+    <libro>
+        <autor>Carlos Ruíz Zafín</autor>
+        <f_publicacion>2002</f_publicacion>
+        <titulo>La sombra del viento</titulo>
+        <pags>565</pags>
+        <editorial>Editorial Planeta</editorial>
+    </libro>
+    <libro>
+        <autor>María Dueñas</autor>
+        <f_publicacion>2010</f_publicacion>
+        <titulo>El tiempo entre costuras</titulo>
+        <pags>640</pags>
+        <editorial>Editorial Planeta</editorial>
+    </libro>
+    <libro>
+        <autor>Arturo Pérez Reverte</autor>
+        <f_publicacion>2010</f_publicacion>
+        <titulo>El asedio</titulo>
+        <pags>736</pags>
+        <editorial>Editorial Alfaguara</editorial>
+    </libro>
+</libros>
