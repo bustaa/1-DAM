@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="alumnado1.xsl"?>
+<alumnado>
+    <alumno>
+        <nombre>Pepe</nombre>
+        <asignaturas>
+            <asignatura>
+                <nombre_asig>Matemáticas</nombre_asig>
+                <nota>7.8</nota>
+                <fecha_nota>4/6/2021</fecha_nota>
+            </asignatura>
+            <asignatura>
+                <nombre_asig>Lengua</nombre_asig>
+                <nota>8.1</nota>
+                <fecha_nota>9/6/2021</fecha_nota>
+            </asignatura>
+        </asignaturas>
+        <poblacion>Albal</poblacion>
+        <tfno>123</tfno>
+        <f_nacimiento>14/3/2009</f_nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Juan</nombre>
+        <asignaturas>
+            <asignatura>
+                <nombre_asig>Lengua</nombre_asig>
+                <nota>3.2</nota>
+                <fecha_nota>5/6/2021</fecha_nota>
+            </asignatura>
+        </asignaturas>
+        <poblacion>Catarroja</poblacion>
+        <tfno>456</tfno>
+        <f_nacimiento>20/7/2009</f_nacimiento>
+    </alumno>
+    <alumno>
+        <nombre>Ana</nombre>
+        <asignaturas>
+            <asignatura>
+                <nombre_asig>Inglés</nombre_asig>
+                <nota>8.3</nota>
+                <fecha_nota>6/6/2021</fecha_nota>
+            </asignatura>
+        </asignaturas>
+        <poblacion>Catarroja</poblacion>
+        <tfno>789</tfno>
+        <f_nacimiento>20/7/2009</f_nacimiento>
+    </alumno>
+</alumnado>
