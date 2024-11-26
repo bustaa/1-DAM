@@ -28,7 +28,7 @@ function agregarCliente(arr) {
         return "Cliente añadido correctamente";
     } else {
         return "El cliente ya esta en la lista";
-    } 
+    }
 }
 
 /**
@@ -94,12 +94,19 @@ function verTurnoCliente(arr) {
  * @return {string} - Mensaje para el usuario
  */
 function verEstadoLista(arr) {
-    return `
-Visualizando lista:
-${JSON.stringify(arr)}`;
+    if (arr.length == 0) {
+        return "La lista está vacía"
+    } else {
+        return `
+        Visualizando lista:
+        ${JSON.stringify(arr)}`;
+    }
     /*
     Utilizar el JSON.stringify() es la forma más simple que he encontrado para visualizar el array en bruto,
     otra forma sería la siguiente pero he considerado que es menos leible: [${'"' + arr.join('", "') + '"'}]
+
+    Si estuviera utilizando un console.log() no me sería necesario, pero según la forma en la que he
+    estructurado mi codigo no me permite hacerlo sin colocar un readlineSync.keyInPause()
     */
 }
 
@@ -179,7 +186,7 @@ let nSel, mensaje = " ";
 let listaClientes = [];
 
 do {
-    console.clear();
+    // console.clear();
     imprimirMenu(mensaje);
     mensaje = " ";
     nSel = readlineSync.questionInt("Introduce opcion (1..8): ");
