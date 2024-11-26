@@ -9,9 +9,9 @@
                 <table border="1" cellpadding="5" cellspacing="0" style="width:40%; border-collapse:collapse; margin-left: 30%">
                     <tr bgcolor="grey">
                         <th style="text-align:center">Alumno</th>
-                        <th style="text-align:center">Población</th>
-                        <th style="text-align:center">Tfno</th>
-                        <th style="text-align:center">Fecha Nacimiento</th>
+                        <th style="text-align:center">Asignatura</th>
+                        <th style="text-align:center">Nota</th>
+                        <th style="text-align:center">Fecha Nota</th>
                     </tr>
                     <!-- Iteración sobre los datos academicos de cada alumno del archivo alumando.xml que esten aprobados-->
                     <xsl:for-each select="alumnado/alumno">
