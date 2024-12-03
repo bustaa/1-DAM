@@ -186,7 +186,7 @@ let nSel, mensaje = " ";
 let listaClientes = [];
 
 do {
-    // console.clear();
+    console.clear();
     imprimirMenu(mensaje);
     mensaje = " ";
     nSel = readlineSync.questionInt("Introduce opcion (1..8): ");
