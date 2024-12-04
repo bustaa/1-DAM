@@ -25,7 +25,7 @@ class Persona {
 
     calcularIMC() {
         let imc = this.peso / (Math.sqrt(this.altura, 2));
-        
+        console.log();
     }
 }
 
