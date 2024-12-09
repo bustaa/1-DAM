@@ -19,7 +19,7 @@ class Persona {
             n = Math.trunc(Math.random() * 10).toString();
             dni += n;
         }
-        dni += letras[dni%23];
+        dni += letras[Number(dni)%23];
         console.log(dni);
     }
 
