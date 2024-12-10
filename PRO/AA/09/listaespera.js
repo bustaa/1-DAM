@@ -20,12 +20,12 @@ Añadir nuevo cliente a la lista
 ===============================
         `);
     name = readline.question("Introduce el nombre de la reserva: ").trim().toLowerCase();
-    
+
     if (name != "") {
         arrList.forEach(customer => {
             if (customer.customerName == name) {
                 exist = true;
-            } 
+            }
         });
         if (!exist) {
             diners = readline.questionInt("Introduce el nombre de comensales: ");
@@ -47,7 +47,7 @@ function nextCustomer(arrList) {
     console.log("============================");
     if (arrList.length != 0) {
         seeListStatus(arrList);
-        let nCustomer = readline.questionInt("Que cliente quieres que ocupe la mesa: ")-1;
+        let nCustomer = readline.questionInt("Que cliente quieres que ocupe la mesa: ") - 1;
         if (nCustomer >= 0 && nCustomer < arrList.length) {
             arrList.splice(nCustomer, 1);
             console.log("El cliente ocupó la mesa correctamente.");
@@ -66,7 +66,7 @@ function removeCustomer(arrList) {
     console.log("=========================");
     if (arrList.length != 0) {
         seeListStatus(arrList);
-        let nRemove = readline.questionInt("Que reserva quiere eliminar: ")-1;
+        let nRemove = readline.questionInt("Que reserva quiere eliminar: ") - 1;
         if (nRemove > 0 && nRemove < arrList.length) {
             arrList.splice(nRemove, 1);
             console.log("El cliente fue eliminado correctamente.");
@@ -118,18 +118,63 @@ function seeListStatus(arrList) {
 }
 
 function saveList(arrList) {
+    console.clear();
+    console.log("Guardar la lista de espera");
+    console.log("==========================");
     if (arrList.length != 0) {
-        if(!fs.existsSync("listado.txt")) {
+        if (!fs.existsSync("listado.txt")) {
             fs.writeFileSync("listado.txt", "", "utf-8");
+            writeInFile("listado.txt", arrList);
+            console.log("Se ha creado y guardado la lista en listado.txt");
+        } else {
+            writeInFile("listado.txt", arrList);
+            console.log("Se ha guardado la lista en listado.txt");
         }
-    } else { 
+    } else {
         console.log("La lista está vacía.");
     }
     readline.keyInPause();
 }
 
+function writeInFile(fileName, arrList) {
+    let listFile = fs.openSync(fileName, "w");
+    arrList.forEach(customer => {
+        fs.writeFileSync(listFile, `${customer.customerName},${customer.diners}\n`, undefined, "utf-8");
+    })
+    fs.closeSync(listFile);
+}
+
 function recoverList(arrList) {
-    
+    console.clear();
+    console.log("Recuperar la lista de espera");
+    console.log("============================");
+    if (fs.existsSync("listado.txt")) {
+        let listFile = fs.openSync("listado.txt", "r");
+        let lines = fs.readFileSync(listFile, "utf-8");
+        let name, diners;
+        for (let line of lines.split("\n")) {
+            if (line != "") {
+                name = "";
+                for (let i of line) {
+                    if (i == ',') break;
+                    else name += i;
+                }
+                diners = "";
+                let isNum = false;
+                for (let j of line) {
+                    if (isNum) diners += j;
+                    if (j == ',') isNum = true;
+                }
+                let customer = new Customer(name, diners);
+                arrList.push(customer);
+            }
+        }
+        fs.closeSync(listFile);
+        console.log("Lista cargada correctamente");
+    } else {
+        console.log("No existe ninguna lista guardada");
+    }
+    readline.keyInPause();
 }
 
 function printMenu() {
@@ -155,20 +200,20 @@ let option;
 do {
     console.clear();
     option = printMenu();
-    switch(option) {
+    switch (option) {
         case 1: addCustomer(list); break;
         case 2: nextCustomer(list); break;
         case 3: removeCustomer(list); break;
         case 4: seeCustomerShift(list); break;
-        case 5: 
-            seeListStatus(list); 
+        case 5:
+            seeListStatus(list);
             readline.keyInPause();
             break;
         case 6: saveList(list); break;
         case 7: recoverList(list); break;
         case 8: console.log("Fin de programa"); break;
-        default: 
+        default:
             console.log("Seleccione una opción correcta");
             readline.keyInPause();
     }
-} while(option != 8);
+} while (option != 8);
