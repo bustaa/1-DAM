@@ -20,7 +20,6 @@ Añadir nuevo cliente a la lista
 ===============================
         `);
     name = readline.question("Introduce el nombre de la reserva: ").trim().toLowerCase();
-    diners = readline.questionInt("Introduce el nombre de comensales: ");
     
     if (name != "") {
         arrList.forEach(customer => {
@@ -29,6 +28,7 @@ Añadir nuevo cliente a la lista
             } 
         });
         if (!exist) {
+            diners = readline.questionInt("Introduce el nombre de comensales: ");
             customer = new Customer(name, diners);
             arrList.push(customer);
             console.log("Cliente añadido correctamente.");
@@ -67,7 +67,7 @@ function removeCustomer(arrList) {
     if (arrList.length != 0) {
         seeListStatus(arrList);
         let nRemove = readline.questionInt("Que reserva quiere eliminar: ")-1;
-        if (nRemove < 0 && nRemove < arrList.length) {
+        if (nRemove > 0 && nRemove < arrList.length) {
             arrList.splice(nRemove, 1);
             console.log("El cliente fue eliminado correctamente.");
         } else {
@@ -119,8 +119,8 @@ function seeListStatus(arrList) {
 
 function saveList(arrList) {
     if (arrList.length != 0) {
-        if(!fs.exists("listado.txt")) {
-            fs.appendFile("listado.txt");
+        if(!fs.existsSync("listado.txt")) {
+            fs.writeFileSync("listado.txt", "", "utf-8");
         }
     } else { 
         console.log("La lista está vacía.");
