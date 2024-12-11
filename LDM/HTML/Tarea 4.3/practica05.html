@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica 05</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <label for="nombre">Nombre:</label> 
+            <input type="text" id="nombre">
+            <br><br>
+            <label for="telefono">Tfno:</label> 
+            <input type="number" id="telefono">
+            <br><br>
+            <label for="email">Email:</label> 
+            <input type="email" id="email">
+            <br><br>
+            <fieldset>
+                <legend>Seleccione transporte</legend>
+                <input type="radio" id="taxi" name="taxi" value="taxi">
+                <label for="taxi">Taxi</label>
+                <br><br>
+                <input type="radio" id="cabify" name="cabify" value="cabify">
+                <label for="cabify">Cabify</label>
+                <br><br>
+                <input type="radio" id="uber" name="uber" value="uber">
+                <label for="uber">Uber</label>
+                <br><br>
+            </fieldset>
+            <br>
+            <label for="fecha">Fecha/Hora de recogida </label>
+            <input type="datetime-local" id="fecha">
+            <br><br>
+            <label for="lugar">Lugar</label>
+            <textarea></textarea>
+            <br><br>
+            <input type="submit" value="Hacer reserva">
+        </form>
+    </body>
+</html>
