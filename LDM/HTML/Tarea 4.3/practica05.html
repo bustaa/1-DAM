@@ -3,6 +3,51 @@
     <head>
         <title>Practica 05</title>
         <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f2f2f2;
+                margin: 20px;
+                color: #201f1f;
+            }
+            form {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                max-width: 400px;
+                margin: auto;
+            }
+            label {
+                font-weight: bold;
+            }
+            input, textarea {
+                width: auto;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                padding: 8px;
+                border: 1px solid #201f1f;
+                border-radius: 4px;
+            }
+            textarea {
+                height: 100px;
+            }
+            fieldset {
+                border: 1px solid #201f1f;
+                padding: 10px;
+                border-radius: 4px;
+            }
+            legend {
+                font-weight: bold;
+            }
+            #submit {
+                background-color: #0056b3;
+                color: white;
+                width: 100%;
+            }
+            textarea {
+                width: 95%;
+            }
+        </style>
     </head>
     <body>
         <form>
@@ -17,14 +62,14 @@
             <br><br>
             <fieldset>
                 <legend>Seleccione transporte</legend>
-                <input type="radio" id="taxi" name="taxi" value="taxi">
                 <label for="taxi">Taxi</label>
+                <input type="radio" id="taxi" name="transporte" value="taxi">
                 <br><br>
-                <input type="radio" id="cabify" name="cabify" value="cabify">
                 <label for="cabify">Cabify</label>
+                <input type="radio" id="cabify" name="transporte" value="cabify">
                 <br><br>
-                <input type="radio" id="uber" name="uber" value="uber">
                 <label for="uber">Uber</label>
+                <input type="radio" id="uber" name="transporte" value="uber">
                 <br><br>
             </fieldset>
             <br>
@@ -32,9 +77,9 @@
             <input type="datetime-local" id="fecha">
             <br><br>
             <label for="lugar">Lugar</label>
-            <textarea></textarea>
+            <textarea id="lugar"></textarea>
             <br><br>
-            <input type="submit" value="Hacer reserva">
+            <input id="submit" type="submit" value="Hacer reserva">
         </form>
     </body>
 </html>
