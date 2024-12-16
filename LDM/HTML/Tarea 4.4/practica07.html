@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro Escuela de Fútbol</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f9f9f9;
+                margin: 0;
+                padding: 20px;
+                color: #201f1f;
+            }
+            h1, h2 {
+                text-align: center;
+                color: #2c3a50;
+            }
+            p {
+                text-align: center;
+                max-width: 600px;
+                margin: 0 auto 20px;
+                line-height: 1.6;
+            }
+            form {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            label {
+                font-weight: bold;
+                display: block;
+                margin-top: 10px;
+            }
+            input, select, textarea {
+                width: 100%;
+                margin: 5px 0 15px;
+                padding: 10px;
+                border: 1px solid #201f1f;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            fieldset {
+                border: 1px solid #201f1f;
+                border-radius: 4px;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            legend {
+                font-weight: bold;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            table, th, td {
+                border: 1px solid #201f1f;
+            }
+            th, td {
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: #747474;
+                color: white;
+            }
+
+            .final {
+                background-color: #73a6de;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Escuela de Fútbol</h1>
+        <h2>Registro de Miembros</h2>
+        <p>
+            Bienvenidos a nuestra escuela de fútbol.<br>
+            Registre a su hijo/a completando el siguiente formulario.
+        </p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="telefono1">Teléfono de contacto 1:</label>
+            <input type="number" id="telefono1" name="telefono1" required>
+
+            <label for="telefono2">Teléfono de contacto 2:</label>
+            <input type="number" id="telefono2" name="telefono2">
+
+            <label for="nombre_padre">Nombre del padre:</label>
+            <input type="text" id="nombre_padre" name="nombre_padre" required>
+
+            <label for="apellidos_padre">Apellidos del padre:</label>
+            <input type="text" id="apellidos_padre" name="apellidos_padre" required>
+
+            <label for="nombre_madre">Nombre de la madre:</label>
+            <input type="text" id="nombre_madre" name="nombre_madre" required>
+
+            <label for="apellidos_madre">Apellidos de la madre:</label>
+            <input type="text" id="apellidos_madre" name="apellidos_madre" required>
+
+            <fieldset>
+                <legend>Categoría</legend>
+
+                <label for="prebenjamin">Prebenjamín</label>
+                <input type="radio" id="prebenjamin" name="categoria" value="prebenjamin">
+
+                <label for="benjamin">Benjamín</label>
+                <input type="radio" id="benjamin" name="categoria" value="benjamin">
+            
+                <label for="alevin">Alevín</label>
+                <input type="radio" id="alevin" name="categoria" value="alevin">     
+
+                <label for="infantil">Infantil</label>
+                <input type="radio" id="infantil" name="categoria" value="infantil">
+
+                <label for="cadete">Cadete</label>
+                <input type="radio" id="cadete" name="categoria" value="cadete">
+
+                <label for="juvenil">Juvenil</label>
+                <input type="radio" id="juvenil" name="categoria" value="juvenil">
+            </fieldset>
+
+            <label for="demarcacion">Demarcación:</label>
+            <select name="demarcacion" id="demarcacion" required>
+                <option value="" disabled selected>Seleccione posición...</option>
+                <option value="portero">Portero</option>
+                <option value="defensa">Defensa</option>
+                <option value="centrocampista">centrocampista</option>
+                <option value="delantero">Delantero</option>
+            </select>
+
+            <label for="dorsal">Dorsal:</label>
+            <input type="number" id="dorsal" name="dorsal" required>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+
+            <label for="foto">Fotografía (opcional):</label>
+            <input type="file" id="foto" name="foto"">
+
+            <input class="final" type="submit" value="Enviar">
+            <input class="final" type="reset" value="Borrar">
+        </form>
+
+        <table>
+            <tr>
+                <th colspan="6">Horarios de entrenamiento por categorías</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <th>Prebenjamín</th>
+                <th></th>
+                <th></th>
+                <th>18:00</th>
+                <th></th>
+                <th>18:00</th>
+            </tr>
+            <tr>
+                <th>Benjamín</th>
+                <th>18:00</th>
+                <th></th>
+                <th></th>
+                <th>18:00</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Alevín</th>
+                <th></th>
+                <th>18:00</th>
+                <th></th>
+                <th></th>
+                <th>18:00</th>
+            </tr>
+            <tr>
+                <th>Infantil</th>
+                <th>19:00</th>
+                <th></th>
+                <th></th>
+                <th>19:00</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Cadete</th>
+                <th></th>
+                <th>19:00</th>
+                <th></th>
+                <th>19:00</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Juvenil</th>
+                <th>19:00</th>
+                <th></th>
+                <th>19:00</th>
+                <th></th>
+                <th>19:00</th>
+            </tr>
+        </table>
+    </body>
+</html>
