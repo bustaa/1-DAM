@@ -52,13 +52,13 @@
     <body>
         <form>
             <label for="nombre">Nombre:</label> 
-            <input type="text" id="nombre">
+            <input type="text" id="nombre" required>
             <br><br>
             <label for="telefono">Tfno:</label> 
-            <input type="number" id="telefono">
+            <input type="number" id="telefono" required>
             <br><br>
             <label for="email">Email:</label> 
-            <input type="email" id="email">
+            <input type="email" id="email" required>
             <br><br>
             <fieldset>
                 <legend>Seleccione transporte</legend>
@@ -74,10 +74,10 @@
             </fieldset>
             <br>
             <label for="fecha">Fecha/Hora de recogida </label>
-            <input type="datetime-local" id="fecha">
+            <input type="datetime-local" id="fecha" required>
             <br><br>
             <label for="lugar">Lugar</label>
-            <textarea id="lugar"></textarea>
+            <textarea id="lugar" required></textarea>
             <br><br>
             <input id="submit" type="submit" value="Hacer reserva">
         </form>
