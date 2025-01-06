@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\bin\Debug\Ejercicio08.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\bin\Debug\Ejercicio08.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\bin\Debug\Ejercicio08.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\obj\Debug\Ejercicio08.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\obj\Debug\Ejercicio08.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\obj\Debug\Ejercicio08.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio08\Ejercicio08\obj\Debug\Ejercicio08.pdb

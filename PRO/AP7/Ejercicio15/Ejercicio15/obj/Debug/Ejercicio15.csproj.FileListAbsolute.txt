@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\bin\Debug\Ejercicio15.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\bin\Debug\Ejercicio15.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\bin\Debug\Ejercicio15.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\obj\Debug\Ejercicio15.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\obj\Debug\Ejercicio15.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\obj\Debug\Ejercicio15.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio15\Ejercicio15\obj\Debug\Ejercicio15.pdb
