@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\bin\Debug\Ejercicio18.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\bin\Debug\Ejercicio18.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\bin\Debug\Ejercicio18.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\obj\Debug\Ejercicio18.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\obj\Debug\Ejercicio18.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\obj\Debug\Ejercicio18.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio18\obj\Debug\Ejercicio18.pdb
