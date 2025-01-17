@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\bin\Debug\Ejercicio22.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\bin\Debug\Ejercicio22.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\bin\Debug\Ejercicio22.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\obj\Debug\Ejercicio22.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\obj\Debug\Ejercicio22.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\obj\Debug\Ejercicio22.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio22\obj\Debug\Ejercicio22.pdb

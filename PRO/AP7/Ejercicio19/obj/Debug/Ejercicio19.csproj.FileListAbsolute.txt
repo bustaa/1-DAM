@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\obj\Debug\Ejercicio19.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\obj\Debug\Ejercicio19.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\bin\Debug\Ejercicio19.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\bin\Debug\Ejercicio19.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\bin\Debug\Ejercicio19.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\obj\Debug\Ejercicio19.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP7\Ejercicio19\obj\Debug\Ejercicio19.pdb
