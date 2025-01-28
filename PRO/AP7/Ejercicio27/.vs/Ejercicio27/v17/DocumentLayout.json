@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP7\\Ejercicio27\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8216359-2497-481D-A198-E86305AF2ED8}|Ejercicio27\\Ejercicio27.csproj|c:\\users\\mabus\\documents\\1-dam\\pro\\ap7\\ejercicio27\\ejercicio27\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8216359-2497-481D-A198-E86305AF2ED8}|Ejercicio27\\Ejercicio27.csproj|solutionrelative:ejercicio27\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP7\\Ejercicio27\\Ejercicio27\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio27\\Program.cs",
+              "ToolTip": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP7\\Ejercicio27\\Ejercicio27\\Program.cs",
+              "RelativeToolTip": "Ejercicio27\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T19:07:40.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

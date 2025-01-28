@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\bin\Debug\colas.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\bin\Debug\colas.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\bin\Debug\colas.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\obj\Debug\colas.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\obj\Debug\colas.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\obj\Debug\colas.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\colas\colas\obj\Debug\colas.pdb

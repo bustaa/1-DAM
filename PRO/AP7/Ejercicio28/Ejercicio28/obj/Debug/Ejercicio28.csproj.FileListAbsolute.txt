@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\bin\Debug\Ejercicio28.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\bin\Debug\Ejercicio28.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\bin\Debug\Ejercicio28.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP7\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.pdb

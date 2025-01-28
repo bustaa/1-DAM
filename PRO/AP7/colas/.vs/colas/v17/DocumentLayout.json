@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP7\\colas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E312704E-920C-4F91-9FBA-31C729302C34}|colas\\colas.csproj|c:\\users\\mabus\\documents\\1-dam\\pro\\ap7\\colas\\colas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E312704E-920C-4F91-9FBA-31C729302C34}|colas\\colas.csproj|solutionrelative:colas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP7\\colas\\colas\\Program.cs",
+              "RelativeDocumentMoniker": "colas\\Program.cs",
+              "ToolTip": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP7\\colas\\colas\\Program.cs",
+              "RelativeToolTip": "colas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:07:04.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
