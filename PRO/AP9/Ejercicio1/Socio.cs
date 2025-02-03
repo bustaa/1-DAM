@@ -16,7 +16,7 @@ namespace Ejercicio1
         {
             this.nombre = nombre;
             this.edad = edad;
-            this.nif = GenerarNIF();
+            nif = GenerarNIF();
             this.sexo = sexo;
             this.peso = peso;
             this.altura = altura;
@@ -43,12 +43,14 @@ namespace Ejercicio1
                 Console.Write("Introduce el NIF: ");
                 nif = Console.ReadLine();
             } while (!ComprobarNIF(nif));
+            this.nif = nif;
 
             do
             {
                 Console.Write("Introduce el sexo: ");
                 sexo = Convert.ToChar(Console.ReadLine());
             } while (!ComprobarSexo(sexo));
+            this.sexo = sexo;
 
             Console.Write("Introduce el peso: ");
             peso = Double.Parse(Console.ReadLine());
@@ -131,7 +133,7 @@ namespace Ejercicio1
             string nuevoNIF = "";
 
             Random rnd = new Random();
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 8; i++)
             {
                 nuevoNIF += Convert.ToString(rnd.Next(1, 10));
             }

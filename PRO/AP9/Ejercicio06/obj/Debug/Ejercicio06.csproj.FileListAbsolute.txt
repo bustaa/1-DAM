@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\bin\Debug\Ejercicio06.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\bin\Debug\Ejercicio06.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\bin\Debug\Ejercicio06.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\obj\Debug\Ejercicio06.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\obj\Debug\Ejercicio06.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\obj\Debug\Ejercicio06.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP9\Ejercicio06\obj\Debug\Ejercicio06.pdb
