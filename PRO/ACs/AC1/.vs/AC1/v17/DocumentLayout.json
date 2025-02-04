@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\ACs\\AC1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{100CFE26-59AE-4B46-8B0B-54C8BA860B96}|AC1.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\acs\\ac1\\raices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100CFE26-59AE-4B46-8B0B-54C8BA860B96}|AC1.csproj|solutionrelative:raices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100CFE26-59AE-4B46-8B0B-54C8BA860B96}|AC1.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\acs\\ac1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100CFE26-59AE-4B46-8B0B-54C8BA860B96}|AC1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Raices.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\ACs\\AC1\\Raices.cs",
+              "RelativeDocumentMoniker": "Raices.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\ACs\\AC1\\Raices.cs",
+              "RelativeToolTip": "Raices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:11:29.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\ACs\\AC1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\ACs\\AC1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:10:13.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
