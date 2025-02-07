@@ -1,0 +1,13 @@
+{
+    "band": {
+        "bandname": "Pink Floyd",
+        "country": "United Kingdom",
+        "year": 1965,
+        "members": [
+            {"name": "Roger Waters", "instrument": "Bass Guitar"},
+            {"name": "David Gilmour", "instrument": "Guitar"},
+            {"name": "Nick Mason", "instrument": "Drums"},
+            {"name": "Richard Wright", "instrument": "Keyboardss"}
+        ]
+    }
+}

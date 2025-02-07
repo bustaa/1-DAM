@@ -1,0 +1,24 @@
+{
+    "company": {
+            "name": "Mercadona",
+            "address": "Rei en Jaume I",
+            "nif": "239842374D",
+            "telephones": ["1323322232", "3423239332", "3901237432"],
+            "clients": [
+                {
+                    "name": "Pepe",
+                    "surname": "García",
+                    "address": "C.Calle nº1",
+                    "telephone": "32423423223",
+                    "nif": "234234233D"
+                },
+                {
+                    "name": "Paco",
+                    "surname": "Guillem",
+                    "address": "C.Calle nº2",
+                    "telephone": "6739238443",
+                    "nif": "324796544E"
+                }
+            ]
+    }
+}
