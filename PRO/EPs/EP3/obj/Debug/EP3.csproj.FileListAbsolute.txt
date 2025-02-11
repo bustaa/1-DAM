@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\bin\Debug\EP3.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\bin\Debug\EP3.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\bin\Debug\EP3.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\obj\Debug\EP3.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\obj\Debug\EP3.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\obj\Debug\EP3.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\EPs\EP3\obj\Debug\EP3.pdb

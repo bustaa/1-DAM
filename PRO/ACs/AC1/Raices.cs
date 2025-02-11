@@ -24,14 +24,12 @@ namespace AC1
 
         private bool TieneRaices()
         {
-            if (getDiscriminante() > 0) return true;
-            return false;
+            return getDiscriminante() > 0;
         }
 
         private bool TieneRaiz()
         {
-            if (getDiscriminante() == 0) return true;
-            return false;
+            return getDiscriminante() == 0;
         }
 
         private void ObtenerRaices()

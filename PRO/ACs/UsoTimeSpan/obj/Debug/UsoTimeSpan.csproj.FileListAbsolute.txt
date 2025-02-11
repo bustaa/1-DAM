@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\bin\Debug\UsoTimeSpan.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\bin\Debug\UsoTimeSpan.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\bin\Debug\UsoTimeSpan.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\obj\Debug\UsoTimeSpan.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\obj\Debug\UsoTimeSpan.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\obj\Debug\UsoTimeSpan.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\UsoTimeSpan\obj\Debug\UsoTimeSpan.pdb

@@ -1,0 +1,6 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\Utilidades\bin\Release\Utilidades.dll
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\Utilidades\bin\Release\Utilidades.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\Utilidades\obj\Release\Utilidades.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\Utilidades\obj\Release\Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\Utilidades\obj\Release\Utilidades.dll
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\Utilidades\obj\Release\Utilidades.pdb

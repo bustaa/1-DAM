@@ -1,0 +1,10 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\bin\Debug\EjemploUsoDLL.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\bin\Debug\EjemploUsoDLL.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\bin\Debug\EjemploUsoDLL.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\bin\Debug\Utilidades.dll
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\bin\Debug\Utilidades.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\obj\Debug\EjemploUsoDLL.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\obj\Debug\EjemploUsoDLL.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\obj\Debug\EjemploU.F1B29698.Up2Date
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\obj\Debug\EjemploUsoDLL.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\ACs\EjemploUsoDLL\obj\Debug\EjemploUsoDLL.pdb
