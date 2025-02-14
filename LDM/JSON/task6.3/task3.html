@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Tabla 3</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio (€)</th>
+                <th>Calorías</th>
+                <th>Ingredientes</th>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+        </tbody>
+    </table>
+    
+    <script>
+        let contenidoJSON = {
+            "restaurante": {
+                "carta": {
+                    "desayuno": [
+                        {
+                            "nombre": "Smoothie bowl de mango y plátano con frutos rojos y chía",
+                            "precio": "5.99",
+                            "calorias": "346",
+                            "lista_ingredientes": ["Mango", "Plátano"]
+                        },
+                        {
+                            "nombre": "Tostas de tomate y mozzarella con mortadela",
+                            "precio": "7.99",
+                            "calorias": "519",
+                            "lista_ingredientes": ["Pan de hogaza", "Tomate", "Mozzarella"]
+                        }
+                    ],
+                    "comida": [
+                        {
+                            "nombre": "Tortilla de patatas",
+                            "precio": "12.99",
+                            "calorias": "789",
+                            "lista_ingredientes": ["Patatas", "Huevo"]
+                        },
+                        {
+                            "nombre": "Pechuga de pollo con arroz",
+                            "precio": "4.55",
+                            "calorias": "645",
+                            "lista_ingredientes": ["Pollo", "Arroz"]
+                        }
+                    ],
+                    "cena": [
+                        {
+                            "nombre": "Pizza Margarita",
+                            "precio": "8.99",
+                            "calorias": "832",
+                            "lista_ingredientes": ["Masa de pizza", "Tomate", "Queso"]
+                        },
+                        {
+                            "nombre": "Cheeseburger",
+                            "precio": "5.87",
+                            "calorias": "1123",
+                            "lista_ingredientes": ["Pan Brioche", "Carne vacuno", "Queso"]
+                        }
+                    ]
+                }
+            }
+        };
+
+        let tablaBody = document.getElementById("tabla");
+        
+        for (let categoria in contenidoJSON.restaurante.carta) {
+            for (let plato of contenidoJSON.restaurante.carta[categoria]) {
+                let ingredientes = plato.lista_ingredientes.join(", ");
+                let fila = `<tr>
+                    <td>${plato.nombre}</td>
+                    <td>${plato.precio}</td>
+                    <td>${plato.calorias}</td>
+                    <td>${ingredientes}</td>
+                </tr>`;
+                tablaBody.innerHTML += fila;
+            }
+        }
+    </script>
+</body>
+
+</html>

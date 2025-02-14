@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Tabla 1</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Matrícula</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Fecha de Reparación</th>
+                <th>Nombre del Mecánico</th>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+        </tbody>
+    </table>
+
+    <script>
+        let contenidoJSON = {
+            "taller": {
+                "vehiculos": [
+                    { 
+                        "matricula": "1234ABC", 
+                        "marca": "AUDI", 
+                        "modelo": "A1", 
+                        "fecha_reparacion": "01/09/2024", 
+                        "nombre_mecanico": "Manuel" 
+                    },
+                    { 
+                        "matricula": "1111BFD", 
+                        "marca": "BMW", 
+                        "modelo": "TT", 
+                        "fecha_reparacion": "02/09/2024", 
+                        "nombre_mecanico": "Jose" 
+                    },
+                    { 
+                        "matricula": "2234BWO", 
+                        "marca": "Ford", 
+                        "modelo": "D-MAX", 
+                        "fecha_reparacion": "03/09/2024", 
+                        "nombre_mecanico": "Paco" 
+                    },
+                    { 
+                        "matricula": "9574YOI", 
+                        "marca": "Seat", 
+                        "modelo": "Ibiza", 
+                        "fecha_reparacion": "04/09/2024", 
+                        "nombre_mecanico": "Vicente" 
+                    },
+                    { 
+                        "matricula": "8828YVS", 
+                        "marca": "MercedesBenz", 
+                        "modelo": "G7", 
+                        "fecha_reparacion": "05/09/2024", 
+                        "nombre_mecanico": "David" 
+                    }
+                ]
+            }
+        };
+
+        let tablaBody = document.getElementById("tabla");
+
+        for (let vehiculo of contenidoJSON.taller.vehiculos) {
+            let fila = `<tr>
+                <td>${vehiculo.matricula}</td>
+                <td>${vehiculo.marca}</td>
+                <td>${vehiculo.modelo}</td>
+                <td>${vehiculo.fecha_reparacion}</td>
+                <td>${vehiculo.nombre_mecanico}</td>
+            </tr>`;
+            tablaBody.innerHTML += fila;
+        }
+    </script>
+</body>
+
+</html>

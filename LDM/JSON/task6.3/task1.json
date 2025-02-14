@@ -1,0 +1,41 @@
+{
+    "taller": {
+        "vehiculos" : [
+            {
+                "matricula": "1234ABC",
+                "marca": "AUDI",
+                "modelo": "A1",
+                "fecha_reparacion": "01/09/2024",
+                "nombre_mecanico": "Manuel"
+            },
+            {
+                "matricula": "1111BFD",
+                "marca": "BMW",
+                "modelo": "TT",
+                "fecha_reparacion": "02/09/2024",
+                "nombre_mecanico": "Jose"
+            },
+            {
+                "matricula": "2234BWO",
+                "marca": "Ford",
+                "modelo": "D-MAX",
+                "fecha_reparacion": "03/09/2024",
+                "nombre_mecanico": "Paco"
+            },
+            {
+                "matricula": "9574YOI",
+                "marca": "Seat",
+                "modelo": "Ibiza",
+                "fecha_reparacion": "04/09/2024",
+                "nombre_mecanico": "Vicente"
+            },
+            {
+                "matricula": "8828YVS",
+                "marca": "MercedesBenz",
+                "modelo": "G7",
+                "fecha_reparacion": "05/09/2024",
+                "nombre_mecanico": "David"
+            }
+        ]
+    }
+}
