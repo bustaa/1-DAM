@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\bin\Debug\Vehiculo.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\bin\Debug\Vehiculo.exe
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\bin\Debug\Vehiculo.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\obj\Debug\Vehiculo.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\obj\Debug\Vehiculo.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\obj\Debug\Vehiculo.exe
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\Vehiculo\Vehiculo\obj\Debug\Vehiculo.pdb
