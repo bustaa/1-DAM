@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Tabla 2</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Editorial</th>
+                <th>Fecha de Publicación</th>
+                <th>ISBN</th>
+                <th>Autores</th>
+            </tr>
+        </thead>
+        <tbody id="tabla">
+        </tbody>
+    </table>
+    
+    <script>
+        let contenidoJSON = {
+            "libros": [
+                {
+                    "titulo": "Harry Poter",
+                    "editorial": "Bloomsbury",
+                    "fecha_publicacion": "26/06/1997",
+                    "ISBN": "9788478884452",
+                    "autores": [
+                        { "nombre": "J.K.Rowling", "pais-origen": "Reino Unido" }
+                    ]
+                },
+                {
+                    "titulo": "El Dios En Llamas",
+                    "editorial": "Hidra",
+                    "fecha_publicacion": "02/09/2024",
+                    "ISBN": "9788419266927",
+                    "autores": [
+                        { "nombre": "R.F.Kuang", "pais-origen": "EUA" },
+                        { "nombre": "Toshikazu Kawaguchi", "pais-origen": "Japón" }
+                    ]
+                },
+                {
+                    "titulo": "Before The Coffee Gets Cold",
+                    "editorial": "Pan Macmillan",
+                    "fecha_publicacion": "11/07/2022",
+                    "ISBN": "9781529029581",
+                    "autores": [
+                        { "nombre": "Toshikazu Kawaguchi", "pais-origen": "Japón" },
+                        { "nombre": "Freida McFadden", "pais-origen": "EUA" }
+                    ]
+                },
+                {
+                    "titulo": "La Asistenta",
+                    "editorial": "Suma",
+                    "fecha_publicacion": "05/10/2024",
+                    "ISBN": "9788491294283",
+                    "autores": [
+                        { "nombre": "Freida McFadden", "pais-origen": "EUA" },
+                        { "nombre": "R.F.Kuang", "pais-origen": "EUA" }
+                    ]
+                },
+                {
+                    "titulo": "Cuando La Tormenta Pase",
+                    "editorial": "Editorial Planeta",
+                    "fecha_publicacion": "19/06/2024",
+                    "ISBN": "9788408290049",
+                    "autores": [
+                        { "nombre": "Manel Loureiro", "pais-origen": "España" }
+                    ]
+                }
+            ]
+        };
+
+        let tablaBody = document.getElementById("tabla");
+        
+        for (let libro of contenidoJSON.libros) {
+            let autores = libro.autores.map(autor => `${autor.nombre} (${autor["pais-origen"]})`).join(", ");
+            let fila = `<tr>
+                <td>${libro.titulo}</td>
+                <td>${libro.editorial}</td>
+                <td>${libro.fecha_publicacion}</td>
+                <td>${libro.ISBN}</td>
+                <td>${autores}</td>
+            </tr>`;
+            tablaBody.innerHTML += fila;
+        }
+    </script>
+</body>
+
+</html>
