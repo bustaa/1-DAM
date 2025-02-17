@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Grandes bandas del siglo XX (segunda parte)</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial;
+            }
+
+            h1 {
+                color: darkgreen;
+                text-align: center;
+                font-size: 40px;
+                border-bottom: 3px solid green;
+            }
+
+            h2 {
+                font-size: 20px;
+                color: blue;
+            }
+
+            p {
+                color: blue;
+                font-size: 12px;
+            }
+
+            a:active {
+                color: red;
+            }
+
+            a:visited {
+                color: green;
+            }
+
+            form {
+                margin: 15px auto;
+                width: 800px;
+            }
+
+            input {
+                margin: 5px;
+            }
+
+            input[type="submit"] {
+                width: 100%;
+                height: 30px;                
+            }       
+
+            h3 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grandes bandas del siglo XX (segunda parte)</h1>
+        <ul>
+            <li><a href="https://www.acdc.com/tour/">AC/DC</a></li>
+            <li><a href="https://www.metallica.com/">Metallica</a></li>
+            <li><a href="https://www.deeppurple.com/">Deep Purple</a></li>
+        </ul>
+        <div class="grupo1">
+            <h2>Grupo 1</h2>
+            <p>
+                AC/DC es un grupo de hard rock australiano formado en 1973 en Sídney, Australia, por los hermanos escoceses Malcolm y Angus Young. Sus álbumes se han vendido en un total estimado de 200 millones de copias, embarcándose en giras multitudinarias por todo el mundo, y sus éxitos han musicalizado varias producciones cinematográficas sobresalientes. Son famosas sus actuaciones en vivo, resultando vibrantes y exultantes espectáculos de primer orden.
+            </p>
+        </div>
+        <div class="grupo2">
+            <h2>Grupo 2</h2>
+            <p>
+                Metallica es una banda de hard rock estadounidense que se origina en Los Ángeles, pero con base en San Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars Ulrich y James Hetfield, a los que se les unirían Dave Mustaine y Ron McGovney. Estos dos músicos fueron después sustituidos por el guitarrista Kirk Hammett y el bajista Cliff Burton respectivamente
+            </p>
+        </div>
+        <div class="grupo3">
+            <h2>Grupo 3</h2>
+            <p>
+                Deep Purple es una banda británica de hard rock formada en 1968 en Hertford, Reino Unido. Está considerada como una de las pioneras de dicho subgénero, y la principal influencia para el heavy metal junto a Led Zeppelin y Black Sabbath. Su música ha incorporado elementos del rock progresivo, rock sinfónico, rock psicodélico, blues rock y de la música clásica.
+            </p>
+        </div>
+        <h3>Compra algún disco: </h3>
+        <form action="formulario.php" method="post">
+            <fieldset class="acdc">
+                <legend>AC/DC</legend>
+                <label for="disco-1">Back in Black</label>
+                <input type="radio" name="disco-back-in-black" id="disco-1">
+                <br>
+                <label for="disco-2">Highway to Hell</label>
+                <input type="radio" name="disco-highway-to-hell" id="disco-2">
+                <br>
+                <label for="disco-3">Powerage</label>
+                <input type="radio" name="disco-powerage" id="disco-3">
+            </fieldset>
+            <fieldset class="metallica">
+                <legend>Metallica</legend>
+                <label for="disco-4">Black Album</label>
+                <input type="radio" name="disco-black-album" id="disco-4">
+                <br>
+                <label for="disco-5">Load</label>
+                <input type="radio" name="disco-load" id="disco-5">
+                <br>
+                <label for="disco-6">ReLoad</label>
+                <input type="radio" name="disco-reload" id="disco-6">
+            </fieldset>
+            <fieldset class="deeppurple">
+                <legend>Deep Purple</legend>
+                <label for="disco-7">Burn</label>
+                <input type="radio" name="disco-burn" id="disco-7">
+                <br>
+                <label for="disco-8">Stormbringer</label>
+                <input type="radio" name="disco-stormbringer" id="disco-8">
+                <br>
+                <label for="disco-9">Perfect Strangers</label>
+                <input type="radio" name="disco-perfect-strangers" id="disco-9">
+            </fieldset>
+            <fieldset class="datos-per">
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required>
+                <br>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos" required>
+                <br>
+                <label for="dir">Dirección: </label>
+                <input type="text" name="dir" id="dir" required>
+                <br>
+                <label for="tel">Teléfono: </label>
+                <input type="tel" name="tel" id="tel"> 
+                <br>
+                <label for="correo">Correo: </label>
+                <input type="email" name="correo" id="correo" required>
+            </fieldset>
+            <input type="submit" value="Enviar" name="submit">
+        </form>
+    </body>
+</html>
