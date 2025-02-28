@@ -1,0 +1,7 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\bin\Debug\Ej04.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\bin\Debug\Ej04.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\bin\Debug\Ej04.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\obj\Debug\Ej04.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\obj\Debug\Ej04.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\obj\Debug\Ej04.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP10\Ej04\obj\Debug\Ej04.pdb

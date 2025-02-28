@@ -52,5 +52,17 @@ namespace Ej02
         {
             return funciones[n_funcion].Precio;
         }
+
+        public void MostrarInfoLetra(char letra)
+        {
+            foreach (Funcion funcion in funciones)
+            {
+                if (funcion.Nombre[0] == letra)
+                {
+                    Console.WriteLine($"Nombre: {funcion.Nombre}");
+                    Console.WriteLine($"Precio: {funcion.Precio}");
+                }
+            }
+        }
     }
 }
