@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\bin\Debug\Ej02.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\bin\Debug\Ej02.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\bin\Debug\Ej02.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\obj\Debug\Ej02.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\obj\Debug\Ej02.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\obj\Debug\Ej02.exe
+C:\Users\mabus\Documents\1-DAM\PRO\AP10\Ej02\Ej02\obj\Debug\Ej02.pdb
