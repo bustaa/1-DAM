@@ -1,0 +1,7 @@
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\bin\Debug\GestionProyectos.exe.config
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\bin\Debug\GestionProyectos.exe
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\bin\Debug\GestionProyectos.pdb
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\obj\Debug\GestionProyectos.csproj.AssemblyReference.cache
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\obj\Debug\GestionProyectos.csproj.CoreCompileInputs.cache
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\obj\Debug\GestionProyectos.exe
+C:\Users\mabus\Documents\1-DAM\PRO\ACs\GestionProyectos\GestionProyectos\obj\Debug\GestionProyectos.pdb

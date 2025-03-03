@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\",
+  "WorkspaceRootPath": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|c:\\users\\mabus\\documents\\1-dam\\pro\\ap10\\ej04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap10\\ej04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\maquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\maquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|solutionrelative:maquina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6AABEF9-E305-4C88-9E25-29835A031BC3}|Ej04.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,21 +28,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Maquina.cs",
-              "DocumentMoniker": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Maquina.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Maquina.cs",
               "RelativeDocumentMoniker": "Maquina.cs",
-              "ToolTip": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Maquina.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Maquina.cs",
               "RelativeToolTip": "Maquina.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowEAAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T14:56:44.399Z"
+              "WhenOpened": "2025-02-28T14:56:44.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Tarjeta.cs",
-              "DocumentMoniker": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Tarjeta.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Tarjeta.cs",
               "RelativeDocumentMoniker": "Tarjeta.cs",
-              "ToolTip": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Tarjeta.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Tarjeta.cs",
               "RelativeToolTip": "Tarjeta.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mabus\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Program.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP10\\Ej04\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB4AAAAgAAAAAAAAAA==",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwBoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:54:51.115Z",
               "EditorCaption": ""
