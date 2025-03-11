@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio03\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio03\\productorefrigerado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|solutionrelative:productorefrigerado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio03\\productofresco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|solutionrelative:productofresco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F374EC9-E1A5-45A3-8A42-E0F027247727}|Ejercicio03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoRefrigerado.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\ProductoRefrigerado.cs",
+              "RelativeDocumentMoniker": "ProductoRefrigerado.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\ProductoRefrigerado.cs",
+              "RelativeToolTip": "ProductoRefrigerado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:36:05.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoFresco.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\ProductoFresco.cs",
+              "RelativeDocumentMoniker": "ProductoFresco.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\ProductoFresco.cs",
+              "RelativeToolTip": "ProductoFresco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:30:31.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\Producto.cs",
+              "RelativeDocumentMoniker": "Producto.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\Producto.cs",
+              "RelativeToolTip": "Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:29:05.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio03\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:28:20.509Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
