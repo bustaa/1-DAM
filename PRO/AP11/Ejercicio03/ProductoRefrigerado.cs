@@ -4,19 +4,13 @@ namespace Ejercicio03
 {
     class ProductoRefrigerado : Producto
     {
-        private string codOrgSupAli;
-        private DateTime fechaEnvasado;
-        private double tempMant;
-        private string paisOrigen;
+        private string codOrganismo;
+        private double temperatura;
 
-        public ProductoRefrigerado(DateTime fechaCaducidad, string numeroLote, string codOrgSupAli, DateTime fechaEnvasado, double tempMant, string paisOrigen) : base(fechaCaducidad, numeroLote)
+        public ProductoRefrigerado(DateTime fechaCaducidad, DateTime fechaEnvasado, string paisOrigen, int numLote, string codOrganismo, double temperatura) : base(fechaCaducidad, fechaEnvasado, paisOrigen, numLote)
         {
-            this.codOrgSupAli = codOrgSupAli;
-            this.fechaEnvasado = fechaEnvasado;
-            this.tempMant = tempMant;
-            this.paisOrigen = paisOrigen;
+            this.codOrganismo = codOrganismo;
+            this.temperatura = temperatura;
         }
-
-
     }
 }

@@ -1,0 +1,26 @@
+# Miguel Ángel Bustamante 1ºDAM
+
+CREATE DEFINER=`root`@`localhost` FUNCTION `actividad2`(
+	`numero1` DOUBLE,
+	`numero2` DOUBLE,
+	`numero3` DOUBLE
+)
+RETURNS double
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	DECLARE numeroMayor DOUBLE;
+
+	IF numero1 > numero2 AND numero1 > numero3 THEN
+		SET numeroMayor = numero1;
+	ELSEIF numero2 > numero3 THEN
+		SET numeroMayor = numero2;
+	ELSE 
+		SET numeroMayor = numero3;
+	END IF;
+	
+	RETURN numeroMayor;
+END

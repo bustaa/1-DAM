@@ -1,0 +1,17 @@
+## Miguel Ángel Bustamante 1ºDAM
+
+CREATE DEFINER=`root`@`localhost` FUNCTION `hipotenusa`(
+	`cateto1` DOUBLE,
+	`cateto2` DOUBLE
+)
+RETURNS double
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	DECLARE hipotenusa DOUBLE;
+	SET hipotenusa = SQRT(POW(cateto1, 2) + POW(cateto2, 2));
+	RETURN hipotenusa;	 
+END

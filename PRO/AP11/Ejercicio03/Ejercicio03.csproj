@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProdCongAgua.cs" />
+    <Compile Include="ProdCongAire.cs" />
+    <Compile Include="ProdCongNitrogeno.cs" />
     <Compile Include="Producto.cs" />
+    <Compile Include="ProductoCongelado.cs" />
     <Compile Include="ProductoFresco.cs" />
     <Compile Include="ProductoRefrigerado.cs" />
     <Compile Include="Program.cs" />
