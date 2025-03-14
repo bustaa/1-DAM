@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio05\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|solutionrelative:libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio05\\publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|solutionrelative:publicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio05\\revista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D313B2-2103-4CE6-9544-E7BF611D77D7}|Ejercicio05.csproj|solutionrelative:revista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Libro.cs",
+              "RelativeDocumentMoniker": "Libro.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Libro.cs",
+              "RelativeToolTip": "Libro.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:10:36.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Revista.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Revista.cs",
+              "RelativeDocumentMoniker": "Revista.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Revista.cs",
+              "RelativeToolTip": "Revista.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:06:13.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Publicacion.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Publicacion.cs",
+              "RelativeDocumentMoniker": "Publicacion.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Publicacion.cs",
+              "RelativeToolTip": "Publicacion.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:58:19.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio05\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:57:20.531Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

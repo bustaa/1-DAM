@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio04\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|solutionrelative:deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio04\\baloncesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|solutionrelative:baloncesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio04\\rugby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|solutionrelative:rugby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|c:\\users\\mibucu\\documents\\1-dam\\pro\\ap11\\ejercicio04\\futbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{242E87AF-966B-4DD8-A7BE-05DE18183511}|Ejercicio04.csproj|solutionrelative:futbol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rugby.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Rugby.cs",
+              "RelativeDocumentMoniker": "Rugby.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Rugby.cs",
+              "RelativeToolTip": "Rugby.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:42:14.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Baloncesto.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Baloncesto.cs",
+              "RelativeDocumentMoniker": "Baloncesto.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Baloncesto.cs",
+              "RelativeToolTip": "Baloncesto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:41:54.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Futbol.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Futbol.cs",
+              "RelativeDocumentMoniker": "Futbol.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Futbol.cs",
+              "RelativeToolTip": "Futbol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:27:29.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deporte.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Deporte.cs",
+              "RelativeDocumentMoniker": "Deporte.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Deporte.cs",
+              "RelativeToolTip": "Deporte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:58:35.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mibucu\\Documents\\1-DAM\\PRO\\AP11\\Ejercicio04\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:57:55.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
