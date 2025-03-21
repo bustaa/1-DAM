@@ -1,0 +1,15 @@
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/bin/Debug/net8.0/Ejercicio06
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/bin/Debug/net8.0/Ejercicio06.deps.json
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/bin/Debug/net8.0/Ejercicio06.runtimeconfig.json
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/bin/Debug/net8.0/Ejercicio06.dll
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/bin/Debug/net8.0/Ejercicio06.pdb
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.GeneratedMSBuildEditorConfig.editorconfig
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.AssemblyInfoInputs.cache
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.AssemblyInfo.cs
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.csproj.CoreCompileInputs.cache
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.sourcelink.json
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.dll
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/refint/Ejercicio06.dll
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.pdb
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/Ejercicio06.genruntimeconfig.cache
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio06/Ejercicio06/obj/Debug/net8.0/ref/Ejercicio06.dll

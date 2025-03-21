@@ -1,7 +1,9 @@
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\bin\Debug\Ejercicio05.exe.config
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\bin\Debug\Ejercicio05.exe
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\bin\Debug\Ejercicio05.pdb
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\obj\Debug\Ejercicio05.csproj.AssemblyReference.cache
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\obj\Debug\Ejercicio05.csproj.CoreCompileInputs.cache
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\obj\Debug\Ejercicio05.exe
-C:\Users\mibucu\Documents\1-DAM\PRO\AP11\Ejercicio05\obj\Debug\Ejercicio05.pdb
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/bin/Debug/Ejercicio05.exe.config
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/bin/Debug/Ejercicio05.exe
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/bin/Debug/Ejercicio05.pdb
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/obj/Debug/Ejercicio05.csproj.AssemblyReference.cache
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/obj/Debug/Ejercicio05.csproj.CoreCompileInputs.cache
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/obj/Debug/Ejercicio05.exe
+C:/Users/mibucu/Documents/1-DAM/PRO/AP11/Ejercicio05/obj/Debug/Ejercicio05.pdb
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio05/obj/Debug/Ejercicio05.exe
+/home/miguelangel/1-DAM/PRO/AP11/Ejercicio05/obj/Debug/Ejercicio05.pdb
