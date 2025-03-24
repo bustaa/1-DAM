@@ -46,3 +46,19 @@ CALL proc10(100);
 CALL proc11(6);
 
 CALL actividad3(10);
+
+SELECT ASCII('h');
+SELECT CHAR(105);
+
+CALL actividad3_2("hola", @X);
+SELECT @X;
+
+CALL actividad3_2_2("hola", 2, @X);
+SELECT @X;
+
+CALL descifrar("ipmb", @x);
+SELECT @X;
+
+SELECT encriptar("Hola");
+
+
