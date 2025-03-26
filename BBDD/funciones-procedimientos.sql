@@ -61,4 +61,8 @@ SELECT @X;
 
 SELECT encriptar("Hola");
 
+CALL obtener_datos("Donoso anton");
 
+CALL cursor_demo3();
+
+SELECT suma_ventas();

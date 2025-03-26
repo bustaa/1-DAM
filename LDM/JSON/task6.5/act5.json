@@ -1,0 +1,92 @@
+{
+    "escuelaFutbol" : {
+        "futbol8" : {
+            "benjamines" : {
+                "equipoA" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Jorge",
+                            "fecha_nacimiento" : "12-06-2014",
+                            "dorsal" : "7"
+                        },
+                        {
+                            "nombre" : "Juan Carlos",
+                            "fecha_nacimiento" : "10-09-2015",
+                            "dorsal" : "3"
+                        }
+                    ]
+                },
+                "equipoB" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Alejandro",
+                            "fecha_nacimiento" : "02-08-2016",
+                            "dorsal" : "24"
+                        },
+                        {
+                            "nombre" : "Fernando",
+                            "fecha_nacimiento" : "15-06-2017",
+                            "dorsal" : 14
+                        }
+                    ]
+                }
+            },
+            "alevines" : {
+                "equipoA" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Paulo",
+                            "fecha_nacimiento" : "12-03-2012",
+                            "dorsal" : "23"
+                        },
+                        {
+                            "nombre" : "Carlos",
+                            "fecha_nacimiento" : "24-04-2013",
+                            "dorsal": "20"
+                        }
+                    ]
+                },
+                "equipoB" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Oscar",
+                            "fecha_nacimiento" : "21-07-2011",
+                            "dorsal" : "4"
+                        },
+                        {
+                            "nombre" : "Jaime",
+                            "fecha_nacimiento" : "11-12-2010",
+                            "dorsal" : "11"
+                        }
+                    ]
+                }
+            }
+        },
+        "futbol11" : {
+            "infantiles" : {
+                "equipoA" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Asier",
+                            "fecha_nacimiento" : "15-10/2012",
+                            "dorsal" : "15"
+                        },
+                        {
+                            "nombre" : "Pau",
+                            "fecha_nacimiento" : "10-02-2011",
+                            "dorsal" : "8"
+                        }
+                    ]
+                },
+                "equipoB" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Marcos",
+                            "fecha_nacimiento" : "12-05-2013"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

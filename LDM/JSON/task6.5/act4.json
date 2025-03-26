@@ -1,0 +1,40 @@
+{
+    "factura" : {
+        "empresa" : {
+            "CIF" : "B84818442",
+            "nombre" : "LEROY MERLIN ESPAÑA SL",
+            "direccion" : "AVENIDA DE LA VEGA (P ARROYO VEGA)",
+            "tfno" : "917496000"
+        },
+        "datos_factura" : {
+            "num_factura" : 123843,
+            "fecha" : "17-09-2024"
+        },
+        "datos_cliente" : {
+            "CIF" : "792988E",
+            "nombre" : "Ramón",
+            "direccion" : "AVENIDA Nº2",
+            "tfno" : "638493223"
+        },
+        "conceptos_factura" : {
+            "productos" : [
+                {
+                    "codigo" : "23E1H24",
+                    "nombre" : "Ladrillos de arcilla",
+                    "precio_unitario" : 2.59,
+                    "IVA_incluido" : 3.13,
+                    "num_unidades" : 3000,
+                    "importe_total" : 9390 
+                },
+                {
+                    "codigo" : "323F23D",
+                    "nombre" : "Sacos de cemento",
+                    "precio_unitario" : 5.12,
+                    "IVA_incluido" : 6.20,
+                    "num_unidades" : 120,
+                    "importe_total" : 744
+                }
+            ]
+        }
+    }
+}
