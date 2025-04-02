@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Task 6.6</title>
+</head>
+
+<body>
+    <script>
+        var json1 = {
+            "repairs": [
+                {
+                    "model": "Iphone 12",
+                    "entryDate": "2025-02-12",
+                    "deliveryDate": "2025-03-05",
+                    "description": "Screen replacement",
+                    "affectedPart": "LDC Screen",
+                    "cost": 150,
+                    "email": "pablo@pablo.com"
+                },
+                {
+                    "model": "Ipad Pro 2020",
+                    "entryDate": "2025-01-12",
+                    "deliveryDate": "2025-01-28",
+                    "description": "Battery replacement",
+                    "affectedPart": "Lithium Battery",
+                    "cost": 90,
+                    "email": "pepe@pepe.com"
+                }
+            ]
+        };
+
+        var json2 = {
+            "patients": [
+                {
+                    "ID": "1",
+                    "address": "123 Street",
+                    "phone": "111-222-333",
+                    "operations": [
+                        {
+                            "date": "2023-09-15",
+                            "description": "Rhinoplasty"
+                        },
+                        {
+                            "date": "2023-10-01",
+                            "description": "Liposuction"
+                        }
+                    ]
+                },
+                {
+                    "ID": "2",
+                    "address": "321 Street",
+                    "phone": "444-555-666",
+                    "operations": [
+                        {
+                            "date": "2023-08-20",
+                            "description": "Liposuction"
+                        }
+                    ]
+                }
+            ]
+        };
+
+        var json3 = {
+            "customers": [
+                {
+                    "name": "Paco",
+                    "address": "789 Street",
+                    "phone": "333-555-777",
+                    "vehicles": [
+                        {
+                            "registration": "1234FF",
+                            "kilometers": 453323,
+                            "repairs": [
+                                {
+                                    "entryDate": "2023-10-10",
+                                    "deliveryDate": "2023-10-20",
+                                    "breakdownDescription": "Engine overheating",
+                                    "repairDescription": "Radiator replacement"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Pedro",
+                    "address": "12345 Street",
+                    "phone": "123-456-789",
+                    "vehicles": [
+                        {
+                            "registration": "5632SW",
+                            "kilometers": 234866,
+                            "reparis": [
+                                {
+                                    "entryDate": "2023-12-23",
+                                    "deliveryDate": "2024-01-03",
+                                    "breakdownDescription": "Transmission failure",
+                                    "repairDescription": "Transmission rebuild"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        };
+
+        document.write("<h2>Mobile device repair company");
+        for (let i = 0; i < json1.repairs.length; i++) {
+            document.write(`
+                <h3>${json1.repairs[i].model}</h3>
+                <p>Entry date: ${json1.repairs[i].entryDate}</p>
+                <p>Delivery date: ${json1.repairs[i].deliveryDate}</p>
+                <p>Description: ${json1.repairs[i].description}</p>
+                <p>Affected part: ${json1.repairs[i].affectedPart}</p>
+                <p>Cost: ${json1.repairs[i].cost}€</p>
+                <p>Email: ${json1.repairs[i].email}</p>
+            `);
+        };
+
+        document.write("<br><h2>Cosmetic surgery clinic</h2>");
+        for (let i = 0; i < json2.patients.length; i++) {
+            document.write(`
+                <h3>ID: ${json2.patients[i].ID}</h3>
+                <p>Address: ${json2.patients[i].address}</p>
+                <p>Phone: ${json2.patients[i].phone}</p>
+                <h4>Operations</h4>
+            `);
+            for (let k = 0; k < json2.patients[i].operations.length; k++) {
+                document.write(`
+                    <p>Date: ${json2.patients[i].operations[k].date}</p>  
+                    <p>Description: ${json2.patients[i].operations[k].description}</p>  
+                `)
+            };
+        };
+
+        document.write("<br><h2>Car repair shop</h2>");
+        for (let i = 0; i < json3.customers.length; i++) {
+            document.write(`
+                <h3>Name: ${}</h3>
+            `)
+        }
+    </script>
+</body>
+
+</html>

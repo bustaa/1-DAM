@@ -1,0 +1,42 @@
+{
+    "customers" : [
+        {
+            "name" : "Paco",
+            "address" : "789 Street",
+            "phone" : "333-555-777",
+            "vehicles" : [
+                {
+                    "registration" : "1234FF",
+                    "kilometers" : 453323,
+                    "repairs" : [
+                        {
+                            "entryDate" : "2023-10-10",
+                            "deliveryDate" : "2023-10-20",
+                            "breakdownDescription" : "Engine overheating",
+                            "repairDescription" : "Radiator replacement"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Pedro",
+            "address" : "12345 Street",
+            "phone" : "123-456-789",
+            "vehicles" : [
+                {
+                    "registration" : "5632SW",
+                    "kilometers" : 234866,
+                    "reparis" : [
+                        {
+                            "entryDate" : "2023-12-23",
+                            "deliveryDate" : "2024-01-03",
+                            "breakdownDescription" : "Transmission failure",
+                            "repairDescription" : "Transmission rebuild"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

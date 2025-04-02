@@ -1,0 +1,30 @@
+{
+    "patients" : [
+        {
+            "ID" : "1",
+            "address" : "123 Street",
+            "phone" : "111-222-333",
+            "operations" : [
+                {
+                    "date" : "2023-09-15",
+                    "description" : "Rhinoplasty"
+                },
+                {
+                    "date" : "2023-10-01",
+                    "description" : "Liposuction"
+                }
+            ]
+        },
+        {
+            "ID" : "2",
+            "address" : "321 Street",
+            "phone" : "444-555-666",
+            "operations" : [
+                {
+                    "date" : "2023-08-20",
+                    "description" : "Liposuction"
+                }
+            ]
+        }
+    ]
+}

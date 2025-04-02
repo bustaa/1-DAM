@@ -1,0 +1,22 @@
+{
+    "repairs" : [
+        {
+            "model" : "Iphone 12",
+            "entryDate" : "2025-02-12",
+            "deliveryDate" : "2025-03-05",
+            "description" : "Screen replacement",
+            "affectedPart" : "LDC Screen",
+            "cost" : 150,
+            "email" : "pablo@pablo.com"
+        },
+        {   
+            "model" : "Ipad Pro 2020",
+            "entryDate" : "2025-01-12",
+            "deliveryDate" : "2025-01-28",
+            "description" : "Battery replacement",
+            "affectedPart" : "Lithium Battery",
+            "cost" : 90,
+            "email" : "pepe@pepe.com"
+        }
+    ]
+}
