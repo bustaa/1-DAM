@@ -66,3 +66,7 @@ CALL obtener_datos("Donoso anton");
 CALL cursor_demo3();
 
 SELECT suma_ventas();
+
+CALL media_ventas(@X, @Y);
+
+SELECT CONCAT("Media: ", @X, "  Suma: ", @Y)

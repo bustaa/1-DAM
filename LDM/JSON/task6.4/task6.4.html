@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Task 6.4</title>
+</head>
+
+<body>
+    <script>
+        var equiposNBA = {
+            "teams": [
+                {
+                    "name": "Los Angeles Lakers",
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "startingFive": [
+                        {
+                            "name": "LeBron James",
+                            "position": "Forward",
+                            "height": "2.06 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Anthony Davis",
+                            "position": "Center",
+                            "height": "2.08 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Russell Westbrook",
+                            "position": "Guard",
+                            "height": "1.91 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Carmelo Anthony",
+                            "position": "Forward",
+                            "height": "2.01 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Dwight Howard",
+                            "position": "Center",
+                            "height": "2.08 m",
+                            "nationality": "USA"
+                        }
+                    ]
+                },
+                {
+                    "name": "Boston Celtics",
+                    "city": "Boston",
+                    "state": "MA",
+                    "startingFive": [
+                        {
+                            "name": "Jayson Tatum",
+                            "position": "Forward",
+                            "height": "2.03 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Jaylen Brown",
+                            "position": "Guard",
+                            "height": "1.98 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Marcus Smart",
+                            "position": "Guard",
+                            "height": "1.91 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Al Horford",
+                            "position": "Center",
+                            "height": "2.06 m",
+                            "nationality": "Dominican Republic"
+                        },
+                        {
+                            "name": "Robert Williams III",
+                            "position": "Center",
+                            "height": "2.03 m",
+                            "nationality": "USA"
+                        }
+                    ]
+                },
+                {
+                    "name": "Golden State Warriors",
+                    "city": "San Francisco",
+                    "state": "CA",
+                    "startingFive": [
+                        {
+                            "name": "Stephen Curry",
+                            "position": "Guard",
+                            "height": "1.91 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Klay Thompson",
+                            "position": "Guard",
+                            "height": "1.98 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Draymond Green",
+                            "position": "Forward",
+                            "height": "1.98 m",
+                            "nationality": "USA"
+                        },
+                        {
+                            "name": "Andrew Wiggins",
+                            "position": "Forward",
+                            "height": "2.01 m",
+                            "nationality": "Canada"
+                        },
+                        {
+                            "name": "Kevon Looney",
+                            "position": "Center",
+                            "height": "2.06 m",
+                            "nationality": "USA"
+                        }
+                    ]
+                }
+            ]
+        }
+
+        document.write("<h1>Equipos NBA</h1><br>");
+        for (let i = 0; i < equiposNBA.teams.length; i++) {
+            document.write(`
+                <table border="1" cellpadding="5" style="margin: 20px; border-collapse: collapse">
+                    <tr>
+                        <th colspan="2">${equiposNBA.teams[i].name}</th>
+                    </tr>
+                    <tr>
+                        <td>Ciudad</td>
+                        <td>${equiposNBA.teams[i].city}, ${equiposNBA.teams[i].state}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <table width="100%">
+                                <tr>
+                                    <th colspan="4">Titulares</th>
+                                </tr>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Posición</th>
+                                    <th>Altura</th>
+                                    <th>Nacionalidad</th>
+                                </tr>
+            `);
+            for (let k = 0; k < equiposNBA.teams[i].startingFive.length; k++) {
+                document.write(`
+                    <tr>
+                        <td>${equiposNBA.teams[i].startingFive[k].name}</td>
+                        <td>${equiposNBA.teams[i].startingFive[k].position}</td>
+                        <td>${equiposNBA.teams[i].startingFive[k].height}</td>
+                        <td>${equiposNBA.teams[i].startingFive[k].nationality}</td>
+                    </tr>
+                `)
+            };
+            document.write(`
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            `)      
+        };
+    </script>
+</body>
+
+</html>

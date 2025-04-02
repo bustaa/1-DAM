@@ -82,7 +82,74 @@
                     "jugadores" : [
                         {
                             "nombre" : "Marcos",
-                            "fecha_nacimiento" : "12-05-2013"
+                            "fecha_nacimiento" : "12-05-2013",
+                            "dorsal" : "11"
+                        },
+                        {
+                            "nombre" : "Daniel",
+                            "fecha_nacimiento" : "15-03-2011",
+                            "dorsal" : "7"
+                        }
+                    ]
+                }
+            },
+            "cadetes" : {
+                "equipoA" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Javier",
+                            "fecha_nacimiento" : "22-10-2008",
+                            "dorsal" : "10"
+                        },
+                        {
+                            "nombre" : "Alejandro",
+                            "fecha_nacimiento" : "30-05-2009",
+                            "dorsal" : "6"
+                        }
+                    ]
+                },
+                "equipoB" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Pablo",
+                            "fecha_nacimiento" : "18-02-2009",
+                            "dorsal" : "4"
+                        },
+                        {
+                            "nombre" : "Luis",
+                            "fecha_nacimiento" : "07-07-2008",
+                            "dorsal" : "12"
+                        }
+                    ]
+                }
+            },
+            "juveniles" : {
+                "equipoA" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Marcos",
+                            "fecha_nacimiento" : "14-04-2006",
+                            "dorsal" : "11"
+                        },
+                        {
+                            "nombre" : "Sergio",
+                            "fecha_nacimiento": "02-12-2005",
+                            "dorsal" : "9"
+                        } 
+                    ]
+                    
+                },
+                "equipoB" : {
+                    "jugadores" : [
+                        {
+                            "nombre" : "Diego",
+                            "fecha_nacimiento" : "29-11-2005",
+                            "dorsal" : "8"
+                        },
+                        {
+                            "nombre" : "Álvaro",
+                            "fecha_nacimiento": "25-01-2006",
+                            "dorsal" : "15"
                         }
                     ]
                 }

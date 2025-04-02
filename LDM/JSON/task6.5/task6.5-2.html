@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Task 6.5 - 2</h1>
+    <script>
+        var objetos = {
+            "escuelaFutbol": {
+                "futbol8": {
+                    "benjamines": {
+                        "equipoA": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Jorge",
+                                    "fecha_nacimiento": "12-06-2014",
+                                    "dorsal": "7"
+                                },
+                                {
+                                    "nombre": "Juan Carlos",
+                                    "fecha_nacimiento": "10-09-2015",
+                                    "dorsal": "3"
+                                }
+                            ]
+                        },
+                        "equipoB": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Alejandro",
+                                    "fecha_nacimiento": "02-08-2016",
+                                    "dorsal": "24"
+                                },
+                                {
+                                    "nombre": "Fernando",
+                                    "fecha_nacimiento": "15-06-2017",
+                                    "dorsal": 14
+                                }
+                            ]
+                        }
+                    },
+                    "alevines": {
+                        "equipoA": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Paulo",
+                                    "fecha_nacimiento": "12-03-2012",
+                                    "dorsal": "23"
+                                },
+                                {
+                                    "nombre": "Carlos",
+                                    "fecha_nacimiento": "24-04-2013",
+                                    "dorsal": "20"
+                                }
+                            ]
+                        },
+                        "equipoB": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Oscar",
+                                    "fecha_nacimiento": "21-07-2011",
+                                    "dorsal": "4"
+                                },
+                                {
+                                    "nombre": "Jaime",
+                                    "fecha_nacimiento": "11-12-2010",
+                                    "dorsal": "11"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "futbol11": {
+                    "infantiles": {
+                        "equipoA": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Asier",
+                                    "fecha_nacimiento": "15-10/2012",
+                                    "dorsal": "15"
+                                },
+                                {
+                                    "nombre": "Pau",
+                                    "fecha_nacimiento": "10-02-2011",
+                                    "dorsal": "8"
+                                }
+                            ]
+                        },
+                        "equipoB": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Marcos",
+                                    "fecha_nacimiento": "12-05-2013",
+                                    "dorsal": "11"
+                                },
+                                {
+                                    "nombre": "Daniel",
+                                    "fecha_nacimiento": "15-03-2011",
+                                    "dorsal": "7"
+                                }
+                            ]
+                        }
+                    },
+                    "cadetes": {
+                        "equipoA": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Javier",
+                                    "fecha_nacimiento": "22-10-2008",
+                                    "dorsal": "10"
+                                },
+                                {
+                                    "nombre": "Alejandro",
+                                    "fecha_nacimiento": "30-05-2009",
+                                    "dorsal": "6"
+                                }
+                            ]
+                        },
+                        "equipoB": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Pablo",
+                                    "fecha_nacimiento": "18-02-2009",
+                                    "dorsal": "4"
+                                },
+                                {
+                                    "nombre": "Luis",
+                                    "fecha_nacimiento": "07-07-2008",
+                                    "dorsal": "12"
+                                }
+                            ]
+                        }
+                    },
+                    "juveniles": {
+                        "equipoA": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Marcos",
+                                    "fecha_nacimiento": "14-04-2006",
+                                    "dorsal": "11"
+                                },
+                                {
+                                    "nombre": "Sergio",
+                                    "fecha_nacimiento": "02-12-2005",
+                                    "dorsal": "9"
+                                }
+                            ]
+
+                        },
+                        "equipoB": {
+                            "jugadores": [
+                                {
+                                    "nombre": "Diego",
+                                    "fecha_nacimiento": "29-11-2005",
+                                    "dorsal": "8"
+                                },
+                                {
+                                    "nombre": "Álvaro",
+                                    "fecha_nacimiento": "25-01-2006",
+                                    "dorsal": "15"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+
+        document.write("<h2>Escuela de Futbol</h2>")
+        document.write("<strong>Futbol 8</strong><br><br>")
+        document.write("<strong>BENJAMINES</strong><br><br>");
+        document.write("<strong>Equipo A</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol8.benjamines.equipoA.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol8.benjamines.equipoA.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol8.benjamines.equipoA.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol8.benjamines.equipoA.jugadores[i].dorsal + "<br><br>");
+        }
+        document.write("<strong>Equipo B</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol8.benjamines.equipoB.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol8.benjamines.equipoB.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol8.benjamines.equipoB.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol8.benjamines.equipoB.jugadores[i].dorsal + "<br><br>");
+        }
+        document.write("<strong>ALEVINES</strong><br><br>");
+        document.write("<strong>Equipo A</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol8.alevines.equipoA.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol8.alevines.equipoA.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol8.alevines.equipoA.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol8.alevines.equipoA.jugadores[i].dorsal + "<br><br>");    
+        }
+        document.write("<strong>Equipo B</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol8.alevines.equipoB.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol8.alevines.equipoB.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol8.alevines.equipoB.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol8.alevines.equipoB.jugadores[i].dorsal + "<br><br>");        
+        }
+        document.write("<strong>Futbol 11</strong><br><br>")
+        document.write("<strong>INFANTILES</strong><br><br>");
+        document.write("<strong>Equipo A</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol11.infantiles.equipoA.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol11.infantiles.equipoA.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol11.infantiles.equipoA.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol11.infantiles.equipoA.jugadores[i].dorsal + "<br><br>");
+        }
+        document.write("<strong>Equipo B</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol11.infantiles.equipoB.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol11.infantiles.equipoB.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol11.infantiles.equipoB.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol11.infantiles.equipoB.jugadores[i].dorsal + "<br><br>");    
+        }
+        document.write("<strong>CADETES</strong><br><br>");
+        document.write("<strong>Equipo A</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol11.cadetes.equipoA.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol11.cadetes.equipoA.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol11.cadetes.equipoA.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol11.cadetes.equipoA.jugadores[i].dorsal + "<br><br>");
+        }
+        document.write("<strong>Equipo B</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol11.cadetes.equipoB.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol11.cadetes.equipoB.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol11.cadetes.equipoB.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol11.cadetes.equipoB.jugadores[i].dorsal + "<br><br>");
+        }
+        document.write("<strong>JUVENILES</strong><br><br>");
+        document.write("<strong>Equipo A</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol11.juveniles.equipoA.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol11.juveniles.equipoA.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol11.juveniles.equipoA.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol11.juveniles.equipoA.jugadores[i].dorsal + "<br><br>");
+        }
+        document.write("<strong>Equipo B</strong><br><br>");
+        for (let i = 0; i < objetos.escuelaFutbol.futbol11.juveniles.equipoB.jugadores.length; i++) {
+            document.write("Nombre: " + objetos.escuelaFutbol.futbol11.juveniles.equipoB.jugadores[i].nombre + "<br>");
+            document.write("Fecha nacimiento: " + objetos.escuelaFutbol.futbol11.juveniles.equipoB.jugadores[i].fecha_nacimiento + "<br>");
+            document.write("Dorsal: " + objetos.escuelaFutbol.futbol11.juveniles.equipoB.jugadores[i].dorsal + "<br><br>");
+        }
+    </script>
+</body>
+
+</html>

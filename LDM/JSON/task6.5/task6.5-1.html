@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Task 6.5 - 1</h1>
+    <script>
+        var objetos = {
+            "factura": {
+                "empresa": {
+                    "CIF": "B84818442",
+                    "nombre": "LEROY MERLIN ESPAÑA SL",
+                    "direccion": "AVENIDA DE LA VEGA (P ARROYO VEGA)",
+                    "tfno": "917496000"
+                },
+                "datos_factura": {
+                    "num_factura": 123843,
+                    "fecha": "17-09-2024"
+                },
+                "datos_cliente": {
+                    "CIF": "792988E",
+                    "nombre": "Ramón",
+                    "direccion": "AVENIDA Nº2",
+                    "tfno": "638493223"
+                },
+                "conceptos_factura": {
+                    "productos": [
+                        {
+                            "codigo": "23E1H24",
+                            "nombre": "Ladrillos de arcilla",
+                            "precio_unitario": 2.59,
+                            "IVA_incluido": 3.13,
+                            "num_unidades": 3000,
+                            "importe_total": 9390
+                        },
+                        {
+                            "codigo": "323F23D",
+                            "nombre": "Sacos de cemento",
+                            "precio_unitario": 5.12,
+                            "IVA_incluido": 6.20,
+                            "num_unidades": 120,
+                            "importe_total": 744
+                        }
+                    ]
+                }
+            }
+        };
+
+        document.write("<strong>DATOS EMPRESA</strong><br>");
+        document.write("CIF: " + objetos.factura.empresa.CIF + "<br>");
+        document.write("Nombre: " + objetos.factura.empresa.nombre + "<br>");
+        document.write("Direccion: " + objetos.factura.empresa.direccion + "<br>");
+        document.write("Telefono: " + objetos.factura.empresa.tfno + "<br><br>");
+        document.write("<strong>DATOS FACTURA</strong><br>")
+        document.write("Num. factura: " + objetos.factura.datos_factura.num_factura + "<br>");
+        document.write("Fecha: " + objetos.factura.datos_factura.fecha + "<br><br>");
+        document.write("<strong>DATOS CLIENTE</strong><br>")
+        document.write("CIF: " + objetos.factura.datos_cliente.CIF + "<br>");
+        document.write("Nombre: " + objetos.factura.datos_cliente.nombre + "<br>");
+        document.write("Direccion: " + objetos.factura.datos_cliente.direccion + "<br>");
+        document.write("Telefono: " + objetos.factura.datos_cliente.tfno + "<br><br>");
+        document.write("<strong>CONCEPTOS</strong><br>");
+        
+        for (let i = 0; i < objetos.factura.conceptos_factura.productos.length; i++) {
+            document.write("Codigo: " + objetos.factura.conceptos_factura.productos[i].codigo + "<br>");
+            document.write("Nombre: " + objetos.factura.conceptos_factura.productos[i].nombre + "<br>");
+            document.write("Precio unitario: " + objetos.factura.conceptos_factura.productos[i].precio_unitario + "<br>");
+            document.write("IVA incluido: " + objetos.factura.conceptos_factura.productos[i].IVA_incluido + "<br>");
+            document.write("Nº unidades: " + objetos.factura.conceptos_factura.productos[i].num_unidades + "<br>");
+            document.write("Importe total: " + objetos.factura.conceptos_factura.productos[i].importe_total + "<br><br>");
+        }
+    </script>
+</body>
+
+</html>
