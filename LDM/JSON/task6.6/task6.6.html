@@ -91,7 +91,7 @@
                         {
                             "registration": "5632SW",
                             "kilometers": 234866,
-                            "reparis": [
+                            "repairs": [
                                 {
                                     "entryDate": "2023-12-23",
                                     "deliveryDate": "2024-01-03",
@@ -137,8 +137,26 @@
         document.write("<br><h2>Car repair shop</h2>");
         for (let i = 0; i < json3.customers.length; i++) {
             document.write(`
-                <h3>Name: ${}</h3>
-            `)
+                <h3>Name: ${json3.customers[i].name}</h3>
+                <p>Address: ${json3.customers[i].address}</p>
+                <p>Phone: ${json3.customers[i].phone}</p>
+                <h4>Vehicles</h4>
+            `);
+            for (let k = 0; k < json3.customers[i].vehicles.length; k++) {
+                document.write(`
+                    <p>Registration: ${json3.customers[i].vehicles[k].registration}</p>
+                    <p>Kilometers: ${json3.customers[i].vehicles[k].kilometers}</p>
+                    <h4>Repairs</h4>
+                `);
+                for (let x = 0; x < json3.customers[i].vehicles[k].repairs.length; x++) {
+                    document.write(`
+                        <p>Entry date: ${json3.customers[i].vehicles[k].repairs[x].entryDate}</p>
+                        <p>Delivery date: ${json3.customers[i].vehicles[k].repairs[x].deliveryDate}</p>
+                        <p>Breakdown description: ${json3.customers[i].vehicles[k].repairs[x].breakdownDescription}</p>
+                        <p>Repair description: ${json3.customers[i].vehicles[k].repairs[x].repairDescription}</p>
+                    `);
+                }
+            }
         }
     </script>
 </body>
