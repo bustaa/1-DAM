@@ -1,0 +1,10 @@
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\bin\Debug\EjercicioAP13.exe.config
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\bin\Debug\EjercicioAP13.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\bin\Debug\EjercicioAP13.pdb
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.csproj.AssemblyReference.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.Form1.resources
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.Properties.Resources.resources
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.csproj.GenerateResource.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.csproj.CoreCompileInputs.cache
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.exe
+C:\Users\mibucu\Documents\1-DAM\PRO\AP13\EjercicioAP13\obj\Debug\EjercicioAP13.pdb

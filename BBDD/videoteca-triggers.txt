@@ -1,0 +1,31 @@
+#Miguel Ángel Bustamante 1-DAM
+
+#Borrado en cascada
+CREATE DEFINER=`root`@`localhost` TRIGGER `video_after_delete` AFTER DELETE ON `video` FOR EACH ROW BEGIN
+	DELETE FROM relvideoactor WHERE idvideo = OLD.idvideo;
+	DELETE FROM relvideocategoria WHERE idvideo = OLD.idvideo;
+END
+
+#Actualizar registro
+CREATE DEFINER=`root`@`localhost` TRIGGER `relvideoactor_after_insert` AFTER INSERT ON `relvideoactor` FOR EACH ROW BEGIN
+	UPDATE actor SET contadoractor = contadoractor + 1 
+	WHERE idactor = NEW.idactor;
+END
+
+#Actualizar registro + autoborrado
+CREATE DEFINER=`root`@`localhost` TRIGGER `relvideoactor_after_delete` AFTER DELETE ON `relvideoactor` FOR EACH ROW BEGIN
+	UPDATE actor SET contadoractor = contadoractor - 1 
+	WHERE idactor = OLD.idactor;
+	
+	IF((SELECT contadoractor FROM actor WHERE idactor = OLD.idactor) = 0) THEN
+		DELETE FROM actor WHERE idactor = OLD.idactor;
+	END IF;
+END
+
+
+#Prueba
+INSERT INTO video VALUES (3, "Pelicula prueba");
+INSERT INTO relvideoactor VALUES (3,2);
+DELETE FROM video WHERE idvideo = 1;
+DELETE FROM video WHERE idvideo = 2;
+DELETE FROM video WHERE idvideo = 3;
