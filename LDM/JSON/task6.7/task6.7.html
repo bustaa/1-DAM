@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Task 6.7</title>
+    </head>
+    <body>
+        <h1>Playlists</h1>
+        <script>
+            var vector_objetos = [
+                {
+                    "nombre": "Clásicos del Rock",
+                    "tipo" : "Rock",
+                    "canciones" : [
+                        {
+                            "titulo" : "Stairway to Heaven",
+                            "grupo" : "Led Zeppelin",
+                            "duracion" : "8:02",
+                            "anyo" : 1971
+                        },
+                        {
+                            "titulo" : "Bohemian Rhapsody",
+                            "grupo" : "Queen",
+                            "duracion" : "5:55",
+                            "anyo" : 1975
+                        }
+                    ]
+                },
+                {
+                    "nombre" : "Éxitos Pop 2023",
+                    "tipo" : "Pop",
+                    "canciones" : [
+                        {
+                            "titulo" : "Flowers",
+                            "grupo" : "Miley Cyrus",
+                            "duracion" : "3:20",
+                            "anyo" : 2023
+                        }
+                    ]
+                }
+            ]
+                
+            var objetos_vectores = {
+                "playlist1" : {
+                    "nombre" : "Clásicos del Rock",
+                    "tipo" : "Rock",
+                    "canciones" : [
+                        {
+                            "titulo" : "Stairway to Heaven",
+                            "grupo" : "Led Zeppelin",
+                            "duracion" : "8:02",
+                            "anyo" : 1971
+                        }
+                    ]
+                },
+                "playlist2" : {
+                    "nombre" : "Éxitos Pop 2023",
+                    "tipo" : "Pop",
+                    "canciones" : [
+                        {
+                            "titulo" : "Flowers",
+                            "grupo" : "Miley Cyrus",
+                            "duracion" : "3:20",
+                            "anyo" : 2023
+                        }
+                    ]
+                }
+            }
+
+            document.write("<h2>Vector de Objetos</h2>");
+            for (let i = 0; i < vector_objetos.length; i++) {
+                document.write(`
+                    <hr>
+                    <p>Nombre: ${vector_objetos[i].nombre}</p>
+                    <p>Tipo: ${vector_objetos[i].tipo}</p>
+                    <h4>Canciones</h4>
+                `);
+                for (let k = 0; k < vector_objetos[i].canciones.length; k++) {
+                    document.write(`
+                        <p>Titulo: ${vector_objetos[i].canciones[k].titulo}</p>
+                        <p>Grupo: ${vector_objetos[i].canciones[k].grupo}</p>
+                        <p>Duración: ${vector_objetos[i].canciones[k].duracion}</p>
+                        <p>Año: ${vector_objetos[i].canciones[k].anyo}</p>
+                        <br>
+                    `);
+                }
+            };
+
+            document.write("<hr><br><h2>Objetos con Vectores</h2><hr>");
+            document.write(`
+                <p>Nombre: ${objetos_vectores.playlist1.nombre}</p>
+                <p>Tipo: ${objetos_vectores.playlist1.tipo}</p>
+                <h4>Canciones</h4>
+            `);
+            for (let i = 0; i < objetos_vectores.playlist1.canciones.length; i++) {
+                document.write(`
+                    <p>Titulo: ${objetos_vectores.playlist1.canciones[i].titulo}</p>
+                    <p>Grupo: ${objetos_vectores.playlist1.canciones[i].grupo}</p>
+                    <p>Duración: ${objetos_vectores.playlist1.canciones[i].duracion}</p>
+                    <p>Año: ${objetos_vectores.playlist1.canciones[i].anyo}</p>
+                    <br>
+                `);
+            }
+
+            document.write(`
+                <hr><br>
+                <p>Nombre: ${objetos_vectores.playlist2.nombre}</p>
+                <p>Tipo: ${objetos_vectores.playlist2.tipo}</p>
+                <h4>Canciones</h4>
+            `);
+            for (let i = 0; i < objetos_vectores.playlist2.canciones.length; i++) {
+                document.write(`
+                    <p>Titulo: ${objetos_vectores.playlist2.canciones[i].titulo}</p>
+                    <p>Grupo: ${objetos_vectores.playlist2.canciones[i].grupo}</p>
+                    <p>Duración: ${objetos_vectores.playlist2.canciones[i].duracion}</p>
+                    <p>Año: ${objetos_vectores.playlist2.canciones[i].anyo}</p>
+                    <br>
+                `);
+            }
+            document.write("<hr>");
+        </script>
+    </body>
+</html>
