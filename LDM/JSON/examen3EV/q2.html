@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Question 2</title>
+    <style>
+        table {
+            width: 30%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cinemas - Question 2</h1>
+    <script>
+        var cinemasJSON = {
+            "cinemas": [
+                {
+                    "name": "A",
+                    "capacity": 300,
+                    "movies": [
+                        {
+                            "title": "El Resplandor",
+                            "genre": "Terror",
+                            "duration": 180
+                        },
+                        {
+                            "title": "Psicosis",
+                            "genre": "Terror",
+                            "duration": 140
+                        }
+                    ]
+                },
+                {
+                    "name": "B",
+                    "capacity": 150,
+                    "movies": [
+                        {
+                            "title": "Cars",
+                            "genre": "Children",
+                            "duration": 95
+                        },
+                        {
+                            "title": "Toy Story",
+                            "genre": "Children",
+                            "duration": 100
+                        }
+                    ]
+                },
+                {
+                    "name": "C",
+                    "capacity": 250,
+                    "movies": [
+                        {
+                            "title": "Dunquerque",
+                            "genre": "War",
+                            "duration": 105
+                        },
+                        {
+                            "title": "Stalingrado",
+                            "genre": "War",
+                            "duration": 100
+                        }
+                    ]
+                }
+            ]
+        };
+
+        for (let i = 0; i < cinemasJSON.cinemas.length; i++) {
+            document.write(`
+                <table border=1>
+                    <thead>
+                        <tr>
+                            <td colspan=3>Room ${cinemasJSON.cinemas[i].name}</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Film-title</th>
+                            <th>Genre</th>
+                            <th>Time</th>
+                        </tr>
+            `);
+        
+            for (let k = 0; k < cinemasJSON.cinemas[i].movies.length; k++) {
+                document.write(`
+                    <tr>
+                        <td>${cinemasJSON.cinemas[i].movies[k].title}</td>
+                        <td>${cinemasJSON.cinemas[i].movies[k].genre}</td>
+                        <td>${cinemasJSON.cinemas[i].movies[k].duration}</td>
+                    </tr>
+                `);
+            }
+
+            document.write(`
+                    </tbody>
+                </table>
+                <br>
+            `);
+        }
+    </script>
+</body>
+
+</html>

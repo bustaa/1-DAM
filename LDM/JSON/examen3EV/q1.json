@@ -1,0 +1,52 @@
+{
+    "cinemas" : [
+        {
+            "name" : "A",
+            "capacity" : 300,
+            "movies" : [
+                {
+                    "title" : "El Resplandor",
+                    "genre" : "Terror",
+                    "duration" : 180
+                },
+                {
+                    "title" : "Psicosis",
+                    "genre" : "Terror",
+                    "duration" : 140
+                }
+            ]
+        },
+        {
+            "name" : "B",
+            "capacity" : 150,
+            "movies" : [
+                {
+                    "title" : "Cars",
+                    "genre" : "Children",
+                    "duration" : 95
+                },
+                {
+                    "title" : "Toy Story",
+                    "genre" : "Children",
+                    "duration" : 100
+                }
+            ]
+        },
+        {
+            "name" : "C",
+            "capacity" : 250,
+            "movies" : [
+                {
+                    "title" : "Dunquerque",
+                    "genre" : "War",
+                    "duration" : 105
+                },
+                {
+                    "title" : "Stalingrado",
+                    "genre" : "War",
+                    "duration" : 100
+                }
+            ]
+        }
+    ]
+}
