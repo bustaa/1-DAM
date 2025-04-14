@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Task 6.8</title>
+    </head>
+    <body>
+        <script>
+            var DAMcourse = {
+                "cursos" : [
+                    {
+                        "nombre" : "Primero",
+                        "max_estudiantes" : 25,
+                        "asignaturas" : 6,
+                        "ev_por_asignatura" : 3,
+                        "estudiantes" : [
+                            {
+                                "nombre" : "Pepe",
+                                "asignaturas" : [
+                                    {
+                                        "nombre" : "Lenguajes de Marcas",
+                                        "evaluaciones" : [6, 7, 8],
+                                        "nota_final" : 7
+                                    }
+                                ]
+                            },
+                            {
+                                "nombre" : "Ana",
+                                "asignaturas" : [
+                                    {
+                                        "nombre": "Lenguajes de Marcas",
+                                        "evaluaciones" : [7, 8, 7],
+                                        "nota_final" : 7.3
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre" : "Segundo",
+                        "max_estudiantes" : 25,
+                        "asignaturas" : 6,
+                        "ev_por_asignatura" : 2,
+                        "estudiantes" : [
+                            {
+                                "nombre" : "Juan",
+                                "asignaturas" : [
+                                    {
+                                        "nombre" : "Lenguajes de Marcas",
+                                        "evaluaciones" : [4, 5],
+                                        "nota_final" : 4.5
+                                    }
+                                ]
+                            },
+                            {
+                                "nombre" : "Carlos",
+                                "asignaturas" : [
+                                    {
+                                        "nombre" : "Lenguajes de Marcas",
+                                        "evaluaciones" : [8, 9],
+                                        "nota_final" : 8.5
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            };
+
+            document.write(`
+                <h1>Notas de Lenguajes de Marcas</h1>
+                <table border="1">
+                    <tr>
+                        <th>Alumno</th>
+                        <th>Eval1</th>
+                        <th>Eval2</th>
+                        <th>Eval3</th>
+                        <th>Nota Final</th>
+                    </tr>
+            `);
+
+            for (let i = 0; i < DAMcourse.cursos.length; i++) {
+                const curso = DAMcourse.cursos[i];
+                for (let j = 0; j < curso.estudiantes.length; j++) {
+                    const estudiante = curso.estudiantes[j];
+                    const asignatura = estudiante.asignaturas[0];
+                    document.write(`<tr><td>${estudiante.nombre}</td>`);
+
+                    for (let k = 0; k < 3; k++) {
+                        if (k < asignatura.evaluaciones.length) {
+                            document.write(`<td>${asignatura.evaluaciones[k]}</td>`);
+                        } else {
+                            document.write(`<td>-</td>`); 
+                        }
+                    }
+
+                    document.write(`<td>${asignatura.nota_final}</td></tr>`);
+                }
+            }
+
+            document.write(`</table>`);
+        </script>
+    </body>
+</html>
